@@ -13,6 +13,7 @@ public class Main {
         arrs.add("546465");
         arrs.add("654");
         arrs.add("54646");
+
         for (int i = 0; i < arrs.size(); ++i) {
             for (int j = arrs.size() - 1; j > i; --j) {
                 if (arrs.get(i).contains(arrs.get(j))) {
