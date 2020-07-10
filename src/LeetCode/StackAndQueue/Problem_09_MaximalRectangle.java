@@ -1,5 +1,6 @@
 package LeetCode.StackAndQueue;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Stack;
 
 
@@ -12,52 +13,51 @@ import java.util.Stack;
  *
  *问题的重点转换为如何快速实现步骤二，height数组可以理解为一个直方图，也就是将问题转换为
  * 在直方图中求最大矩形的面积，求最大面积，可以理解为求每一根柱子扩展出去的最大矩形，
- * 求扩展出去的面积的关键在于求出该柱子像左向右
+ * 求扩展出去的面积的关键在于求出该柱子向左向右第一个比它小的柱子，这个可以用栈来求出
  */
 
 public class Problem_09_MaximalRectangle {
-
-	public static int maxRecSize(int[][] map) {
-		if (map == null || map.length == 0 || map[0].length == 0) {
+	public static int maxRecSize(int [][]map){
+		if(map==null||map.length==0||map[0].length==0){
 			return 0;
 		}
-		int maxArea = 0;
-		int[] height = new int[map[0].length];
-		for (int i = 0; i < map.length; i++) {
-			for (int j = 0; j < map[0].length; j++) {
-				height[j] = map[i][j] == 0 ? 0 : height[j] + 1;
+		int maxArea= 0;
+		int[] height = new int [map[0].length];
+		for(int i=0;i<map.length;++i){
+			for(int j=0;j<map[0].length;++j){
+				height[j]= map[i][j]==0?0:height[j]+1;
 			}
-			maxArea = Math.max(maxRecFromBottom(height), maxArea);
+			maxArea = Math.max(maxRecFrombottom(height),maxArea);
 		}
 		return maxArea;
 	}
 
-	public static int maxRecFromBottom(int[] height) {
-		if (height == null || height.length == 0) {
+	public static int maxRecFrombottom(int[]height){
+		if(height==null||height.length==0){
 			return 0;
 		}
 		int maxArea = 0;
-		Stack<Integer> stack = new Stack<Integer>();
-		for (int i = 0; i < height.length; i++) {
-			while (!stack.isEmpty() && height[i] <= height[stack.peek()]) {
-				int j = stack.pop();
-				int k = stack.isEmpty() ? -1 : stack.peek();
-				int curArea = (i - k - 1) * height[j];
-				maxArea = Math.max(maxArea, curArea);
+		Stack<Integer>stack = new Stack<>();
+		for(int i=0;i<height.length;++i){
+			while(!stack.isEmpty()&&height[i]<=height[stack.peek()]){
+				int j=stack.pop();
+				int k = stack.isEmpty()?-1:stack.peek();
+				int  curArea = (i-k-1)*height[j];
+				maxArea = Math.max(curArea,maxArea);
 			}
 			stack.push(i);
 		}
-		while (!stack.isEmpty()) {
-			int j = stack.pop();
-			int k = stack.isEmpty() ? -1 : stack.peek();
-			int curArea = (height.length - k - 1) * height[j];
-			maxArea = Math.max(maxArea, curArea);
+		while(!stack.isEmpty()){
+			int j= stack.pop();
+			int k = stack.isEmpty()?-1:stack.peek();
+			int curArea = (height.length-k-1)*height[j];
+			maxArea = Math.max(curArea,maxArea);
 		}
 		return maxArea;
 	}
 
-	public static void main(String[] args) {
-		int[][] map = { { 1, 0, 1, 1 }, { 1, 1, 1, 1 }, { 1, 1, 1, 0 }, };
+	public static void main(String[] args){
+		int [][]map = {{1,0,1,1},{1,1,1,1},{1,1,1,0}};
 		System.out.println(maxRecSize(map));
 	}
 
