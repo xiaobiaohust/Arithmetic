@@ -1,4 +1,4 @@
-package basic_course.basic_1;
+package BasicCourse.basic_class_01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
