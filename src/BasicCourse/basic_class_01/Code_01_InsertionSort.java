@@ -2,6 +2,9 @@ package BasicCourse.basic_class_01;
 
 import java.util.Arrays;
 
+/**
+ * 插入排序，O(N^2) 稳定
+ */
 public class Code_01_InsertionSort {
 
     public static void insertionSort(int[] arr) {

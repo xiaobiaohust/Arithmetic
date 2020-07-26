@@ -2,6 +2,13 @@ package BasicCourse.basic_class_01;
 
 import java.util.Arrays;
 
+
+/**
+ * 堆排序
+ * 要求：时间复杂度O（N log N）,空间复杂度O（1），不稳定
+ * 思路：
+ * 1
+ */
 public class Code_03_HeapSort {
 
 	public static void heapSort(int[] arr) {

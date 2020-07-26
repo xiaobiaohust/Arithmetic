@@ -1,5 +1,13 @@
 package BasicCourse.basic_class_01;
 
+
+/**
+ * 荷兰国旗问题
+ * 给点一个数组arr和一个数num，小于num的数放在数组的左边，大于放在右边，等于放在中间
+ * 要求：时间复杂度O（N）,空间复杂度O（1）
+ * 思路：
+ * 1
+ */
 public class Code_08_NetherlandsFlag {
 
 	public static int[] partition(int[] arr, int l, int r, int p) {

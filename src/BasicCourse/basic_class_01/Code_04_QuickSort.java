@@ -2,6 +2,12 @@ package BasicCourse.basic_class_01;
 
 import java.util.Arrays;
 
+/**
+ * 快排
+ * 要求：时间复杂度O（N log N）,空间复杂度O（log N）,不稳定
+ * 思路：
+ * 1
+ */
 public class Code_04_QuickSort {
 
 	public static void quickSort(int[] arr) {

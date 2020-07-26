@@ -2,6 +2,9 @@ package BasicCourse.basic_class_01;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序，O(N^2) 不稳定
+ */
 public class Code_02_SelectionSort {
 
 	public static void selectionSort(int[] arr) {

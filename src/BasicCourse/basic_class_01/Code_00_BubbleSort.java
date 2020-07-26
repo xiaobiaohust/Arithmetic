@@ -2,6 +2,9 @@ package BasicCourse.basic_class_01;
 
 import java.util.Arrays;
 
+/**
+ * 冒泡排序，O(N^2) 稳定
+ */
 public class Code_00_BubbleSort {
 
     public static void bubbleSort(int[] arr) {

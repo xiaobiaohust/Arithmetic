@@ -1,8 +1,11 @@
 package BasicCourse.basic_class_01;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
+
+/**
+ * 比较器
+ */
 public class Code_09_Comparator {
 
 	public static class Student {
@@ -79,6 +82,22 @@ public class Code_09_Comparator {
 
 		Arrays.sort(students, new AgeDescendingComparator());
 		printStudents(students);
+
+
+		//使用现成的排序算法进行排序
+		PriorityQueue<Student>heap = new PriorityQueue<>(new AgeAscendingComparator ());
+		heap.add(student3);
+		heap.add(student2);
+		heap.add(student1);
+		while(!heap.isEmpty()){
+			Student student = heap.poll();
+			System.out.println("Name : " + student.name + ", Id : " + student.id + ", Age : " + student.age);
+		}
+
+		//红黑树
+		TreeSet<Student> treeSet = new TreeSet(new AgeAscendingComparator ());
+
+
 
 	}
 

@@ -2,7 +2,7 @@ package BasicCourse.basic_class_01;
 
 import java.util.Arrays;
 
-public class Code_11_MaxGap {
+public class  Code_11_MaxGap {
 
 	public static int maxGap(int[] nums) {
 		if (nums == null || nums.length < 2) {
