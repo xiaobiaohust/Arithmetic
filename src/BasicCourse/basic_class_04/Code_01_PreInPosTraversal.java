@@ -45,6 +45,10 @@ public class Code_01_PreInPosTraversal {
 		System.out.print(head.value + " ");
 	}
 
+	/**
+	 * 非递归二叉树遍历，先序遍历
+	 * @param head
+	 */
 	public static void preOrderUnRecur(Node head) {
 		System.out.print("pre-order: ");
 		if (head != null) {
@@ -64,6 +68,10 @@ public class Code_01_PreInPosTraversal {
 		System.out.println();
 	}
 
+	/**
+	 * 非递归二叉树遍历，中序遍历
+	 * @param head
+	 */
 	public static void inOrderUnRecur(Node head) {
 		System.out.print("in-order: ");
 		if (head != null) {
@@ -81,7 +89,11 @@ public class Code_01_PreInPosTraversal {
 		}
 		System.out.println();
 	}
-
+	/**
+	 * 非递归二叉树遍历，后序遍历
+	 * 思路：先序遍历是中左右，可以改一下变成中中右左，只是打印的时候不打印，用一个栈存储，在打印，就反过来了
+	 * @param head
+	 */
 	public static void posOrderUnRecur1(Node head) {
 		System.out.print("pos-order: ");
 		if (head != null) {

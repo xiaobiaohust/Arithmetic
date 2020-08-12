@@ -1,5 +1,10 @@
 package BasicCourse.basic_class_08;
 
+
+/**
+ * 母牛生牛，所有的牛不会死，新生的牛三年之后才可以生牛
+ * F(n) = F(n-1) + F(n-3)
+ */
 public class Code_05_Cow {
 
 	public static int cowNumber1(int n) {

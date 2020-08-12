@@ -1,11 +1,6 @@
-package BasicCourse.basic_class_04;
+package AdvancedCourse.advanced_class_05;
 
-
-/**
- * 判断是否是平衡二叉树  ，左子树和右子树的高度差不超过1，满二叉树一定是平衡二叉树，
- * 平衡二叉树不一定是满二叉树
- */
-public class Code_06_IsBalancedTree {
+public class Code_02_IsBalancedTree {
 
 	public static class Node {
 		public int value;
@@ -22,6 +17,36 @@ public class Code_06_IsBalancedTree {
 		res[0] = true;
 		getHeight(head, 1, res);
 		return res[0];
+	}
+	
+	public static class ReturnType {
+		public int level;
+		public boolean isB;
+		
+		public ReturnType(int l, boolean is) {
+			level = l;
+			isB = is;
+		}
+	}
+	
+	// process(head, 1)
+	
+	public static ReturnType process(Node head, int level) {
+		if (head == null) {
+			return new ReturnType(level, true);
+		}
+		ReturnType leftSubTreeInfo = process(head.left, level + 1);
+		if(!leftSubTreeInfo.isB) {
+			return new ReturnType(level, false);
+		}
+		ReturnType rightSubTreeInfo = process(head.right, level + 1);
+		if(!rightSubTreeInfo.isB) {
+			return new ReturnType(level, false);
+		}
+		if (Math.abs(rightSubTreeInfo.level - leftSubTreeInfo.level) > 1) {
+			return new ReturnType(level, false);
+		}
+		return new ReturnType(Math.max(leftSubTreeInfo.level, rightSubTreeInfo.level), true);
 	}
 
 	public static int getHeight(Node head, int level, boolean[] res) {

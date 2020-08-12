@@ -1,14 +1,9 @@
-package BasicCourse.basic_class_04;
+package AdvancedCourse.advanced_class_05;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-
-/**
- * 判断是否是平搜素二叉树  ，左子树比根节点小，右子树比跟节点大，。
- * 中序遍历是升序的
- */
-public class Code_07_IsBSTAndCBT {
+public class Code_01_IsBSTAndCBT {
 
 	public static class Node {
 		public int value;
@@ -51,10 +46,6 @@ public class Code_07_IsBSTAndCBT {
 		return res;
 	}
 
-	/**
-	 * 判断是否是完全二叉树
-	 * （1）有右孩子，无左孩子，则不是完全二叉树
-	 */
 	public static boolean isCBT(Node head) {
 		if (head == null) {
 			return true;

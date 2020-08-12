@@ -1,5 +1,9 @@
 package BasicCourse.basic_class_07;
 
+
+/**
+ * 前缀树
+ */
 public class Code_01_TrieTree {
 
 	public static class TrieNode {

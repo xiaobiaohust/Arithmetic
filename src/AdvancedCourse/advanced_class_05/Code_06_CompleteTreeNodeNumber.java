@@ -1,11 +1,6 @@
-package BasicCourse.basic_class_04;
+package AdvancedCourse.advanced_class_05;
 
-
-/**
- * 已知完全二叉树，求节点个数
- *
- */
-public class Code_08_CompleteTreeNodeNumber {
+public class Code_06_CompleteTreeNodeNumber {
 
 	public static class Node {
 		public int value;

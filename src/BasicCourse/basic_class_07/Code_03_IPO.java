@@ -3,7 +3,7 @@ package BasicCourse.basic_class_07;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Code_03_IPO {
+public class  Code_03_IPO {
 	public static class Node {
 		public int p;
 		public int c;

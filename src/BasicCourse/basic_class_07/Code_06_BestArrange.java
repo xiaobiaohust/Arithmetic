@@ -3,6 +3,11 @@ package BasicCourse.basic_class_07;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * 一个项目要占用一个会议室宣讲，会议室不能同时容纳两个项目的宣讲，
+ * 给每一个项目的开始的时间和结束的时间，来安排宣讲的日程，要求会议室进行宣讲的场次最多
+ */
+
 public class Code_06_BestArrange {
 
 	public static class Program {
