@@ -36,6 +36,12 @@ public class AccessAuthority {
      */
 
 
+    /**
+     * 类的访问权限
+     * 1：类的访问权限只有public和包访问权限，没有private和protected
+     */
+
+
 
     public static void main(String[]args){
         System.out.println("game start......");
