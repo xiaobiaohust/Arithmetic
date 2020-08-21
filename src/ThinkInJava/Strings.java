@@ -1,6 +1,8 @@
 package ThinkInJava;
 
 import java.util.Formatter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 字符串处理
@@ -76,19 +78,37 @@ public class Strings {
      *      \s,\S
      *      \d,\D
      *      \w,\W
+     * （3）量词
+     *      勉强型：也就是问号“?”，匹配满足模式所需的最少字符数
+     *      贪婪型：尽可能多的匹配字符
+     * （4）Pattern、Matcher
+     *         Pattern对象的matcher方法生成一个Matcher对象，
+     *         Pattern对象的matches用来返回字符串和模式是否匹配
+     *         matcher对象具有matches、find等函数
+     * （5）group
+     *
      */
     public static void f6() {
         Formatter formatter = new Formatter();
         System.out.println("我324234我".matches("^我\\d+我$"));
-        System.out.println(String.format("%s sddf %s", "你好", "我说"));
+        Pattern pattern = Pattern.compile("\\w+");
+        Matcher matcher = pattern.matcher("my name is xiao biao");
+
+        System.out.println();
+        while (matcher.find()){
+            System.out.println(matcher.group());
+        }
+        System.out.println(matcher.matches());
+
+
 
     }
 
 
     public static void main(String[] args) {
-        f2();
+        /*f2();
         f4();
-        f5();
+        f5();*/
         f6();
     }
 
