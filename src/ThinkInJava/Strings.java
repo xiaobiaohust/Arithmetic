@@ -1,5 +1,6 @@
 package ThinkInJava;
 
+import java.util.Arrays;
 import java.util.Formatter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -86,7 +87,18 @@ public class Strings {
      *         Pattern对象的matches用来返回字符串和模式是否匹配
      *         matcher对象具有matches、find等函数
      * （5）group
-     *
+     *      groupCount返回该匹配器模式中的分组数目
+     *      group返回前一次匹配操作期间指定的组号
+     *（6）start、end
+     *      返回前一次匹配操作期间所匹配的开始和结束索引
+     * （7）find、lookingAt、matches
+     *      find可以在输入的任意位置定位正则表达式
+     *      matches只有在整个输入都匹配正则表达式才会成功
+     *      lookingAt在输入的开始匹配时才会成功
+     * （8）Pattern.split
+     * （9）替换操作
+     *      replaceFirs、replaceAll
+     * （10）reset：将现有的Matcher对象应用于一个新的字符序列
      */
     public static void f6() {
         Formatter formatter = new Formatter();
@@ -99,6 +111,18 @@ public class Strings {
             System.out.println(matcher.group());
         }
         System.out.println(matcher.matches());
+
+        pattern = Pattern.compile("(\\w+)");
+        matcher = pattern.matcher("my name is xiao biao");
+        System.out.println(matcher.groupCount());
+        matcher.reset("hello how are you");
+
+        while (matcher.find()){
+            System.out.println(matcher.group(1)+matcher.start()+"-"+matcher.end());
+        }
+        System.out.println(Arrays.toString(Pattern.compile("biao").split("woshixiaobiaoasdasdabiao")));
+        System.out.println(Arrays.toString("woshixiaobiaoasdasdabiao".split("biao")));
+
 
 
 
