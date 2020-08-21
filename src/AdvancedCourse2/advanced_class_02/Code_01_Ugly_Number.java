@@ -1,5 +1,10 @@
 package AdvancedCourse2.advanced_class_02;
 
+
+/**
+ * 丑数
+ * 1：衍生，判断一个数N是否是质数，时间复杂度o(N^1/2)
+ */
 public class Code_01_Ugly_Number {
 
 	public static int uglyNumber1(int index) {

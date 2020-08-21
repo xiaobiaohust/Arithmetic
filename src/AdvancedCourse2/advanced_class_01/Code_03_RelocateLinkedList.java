@@ -1,5 +1,10 @@
 package AdvancedCourse2.advanced_class_01;
 
+
+/**
+ * 给点一个链表，调整链表
+ * 方法一：遍历列表，使用一个数组存储链表，根据数组所有和链表顺序的关系，存储
+ */
 public class Code_03_RelocateLinkedList {
 
 	public static class Node {
@@ -26,7 +31,7 @@ public class Code_03_RelocateLinkedList {
 		mergeLR(head, right);
 	}
 
-	public static void mergeLR(Node left, Node right) {
+		public static void mergeLR(Node left, Node right) {
 		Node next = null;
 		while (left.next != null) {
 			next = right.next;

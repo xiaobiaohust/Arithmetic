@@ -5,8 +5,16 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * 变形词
+ */
 public class Code_04_Group_Anagrams {
 
+	/**
+	 * 排序在统计
+	 * @param strs
+	 * @return
+	 */
 	public List<List<String>> groupAnagrams1(String[] strs) {
 		HashMap<String, List<String>> map = new HashMap<String, List<String>>();
 		for (String str : strs) {
@@ -25,6 +33,11 @@ public class Code_04_Group_Anagrams {
 		return res;
 	}
 
+	/**
+	 * 统计字母频率
+	 * @param strs
+	 * @return
+	 */
 	public List<List<String>> groupAnagrams2(String[] strs) {
 		HashMap<String, List<String>> map = new HashMap<String, List<String>>();
 		for (String str : strs) {
