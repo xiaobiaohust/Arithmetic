@@ -68,7 +68,7 @@ public class Code_01_HashMap {
 		System.out.println("=========================");
 
 		// you can not remove item in map when you use the iterator of map
-//		 for(Entry<String,String> entry : map.entrySet()){
+//		 for(Entry<Strings,Strings> entry : map.entrySet()){
 //			 if(!entry.getValue().equals("1")){
 //				 map.remove(entry.getKey());
 //			 }

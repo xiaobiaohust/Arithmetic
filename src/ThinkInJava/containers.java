@@ -1,9 +1,9 @@
-package ThinkInJava.containers;
+package ThinkInJava;
 
 import java.util.*;
 
-public class addingGroup {
-    public  static void main(String[]args){
+public class containers {
+    public  static void main(Strings[]args){
         Collection<Integer> collection= new ArrayList<>(Arrays.asList(1,2,3,4,5));
         Integer [] moreInts = {6,7,8,9,10};
         //collection.addAll只能接受一个collection对象，无法接受数组等，所以需要转一下
@@ -27,7 +27,7 @@ public class addingGroup {
         /**
          * List：包括ArrayList、LinkedList，按照插入顺序保存元素，LinkedList支持的操作更多
          * ArrayList：长于随机访问元素，在list中插入和删除元素时比较慢
-         * LinkedList：在list中差诶和删除进行了优化，但是随机访问相对较慢
+         * LinkedList：在list中插入和删除进行了优化，但是随机访问相对较慢
          * 方法：
          * 1：contains、containsAll
          * 2：add、get、remove、isEmpty、clear
