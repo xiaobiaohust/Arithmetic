@@ -2,6 +2,7 @@ package ThinkInJava;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Random;
 
 /**
@@ -47,22 +48,28 @@ public class arrays {
 
     /**
      * 三：数组比较排序
-     * 1：Comparable对象有一个compareTo方法，接受一个对象参数
-     * 当前对象大于参数对象，返回正值
-     * 当前对象等于参数对象，返回0
-     * 当前对象大于参数对象，返回负值
+     * 1：Comparable自然排序，
+     * 继承Comparable,实现compareTo方法，接受一个对象参数；
+     * 可通过Collections.sort()、Arrays.sort()排序
+     * 实现了Comparable接口可用于TreeMap、TreeSet
+     *     compareTo:
+     *
+     *      当前对象大于参数对象，返回正值
+     *      当前对象等于参数对象，返回0
+     *      当前对象大于参数对象，返回负值
+     * 2：Comparator定制排序
      */
     public static class sortTest implements Comparable<sortTest> {
-        int value;
         int value1;
+        int value2;
 
         public sortTest() {
-            value = (int) (Math.random() * 100);
             value1 = (int) (Math.random() * 100);
+            value2 = (int) (Math.random() * 100);
         }
 
         public String toString() {
-            return "value:"+String.valueOf(value)+",value1:"+String.valueOf(value1);
+            return String.valueOf(value1);
         }
 
         public int compareTo(sortTest obj) {
@@ -70,8 +77,31 @@ public class arrays {
         }
     }
 
+    public static class AscSort implements Comparator<sortTest>{
+        @Override
+        public int compare(sortTest obj1,sortTest obj2){
+            return obj1.value1-obj2.value1;
+        }
+    }
+    public static class DescSort implements Comparator<sortTest>{
+        @Override
+        public int compare(sortTest obj1,sortTest obj2){
+            return obj2.value1-obj1.value1;
+        }
+    }
+
     public static void f3() {
         sortTest[] a = new sortTest[8];
+        for (int i = 0; i < a.length; ++i) {
+            a[i] = new sortTest();
+        }
+        Arrays.sort(a,new AscSort());
+        System.out.println(Arrays.toString(a));
+        for (int i = 0; i < a.length; ++i) {
+            a[i] = new sortTest();
+        }
+        Arrays.sort(a,new DescSort());
+        System.out.println(Arrays.toString(a));
         for (int i = 0; i < a.length; ++i) {
             a[i] = new sortTest();
         }
