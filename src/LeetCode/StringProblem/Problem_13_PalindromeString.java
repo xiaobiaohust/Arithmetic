@@ -20,7 +20,7 @@ public class Problem_13_PalindromeString {
      * str[i]!=str[j]
      */
 
-    public static String getPalindromel(String str){
+    public static String getPalindrome1(String str){
         if(str==null||str.length()==0){
             return str;
         }
@@ -37,11 +37,13 @@ public class Problem_13_PalindromeString {
                 res[resr--] = chas[j--];
             }else if(dp[i+1][j]<dp[i][j-1]){
                 res[resl++] = chas[i];
-                res[resr++] = chas[i++]
+                res[resr--] = chas[i++];
+            }else{
+                res[resl++] = chas[j];
+                res[resr--] = chas[j--];
             }
         }
-
-
+        return String.valueOf(res);
     }
 
     public static int[][] getDP(char[] str) {
@@ -57,5 +59,12 @@ public class Problem_13_PalindromeString {
             }
         }
         return dp;
+    }
+
+    public static void main(String[] args) {
+        String str = "AB1CD2EFG3H43IJK2L1MN";
+        System.out.println(getPalindrome1(str));
+
+
     }
 }
