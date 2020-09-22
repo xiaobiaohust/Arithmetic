@@ -105,6 +105,11 @@ public class Problem_01_PreInPosTraversal {
         }
         System.out.println();
     }
+    /**
+     * 非递归后序遍历
+     * 思想：每个节点都需要先入栈，访问左孩子之后再访问该节点
+     * @param head
+     */
     public static void posOrderUnrecur(Node head){
         if(head==null){
             return;
