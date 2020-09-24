@@ -32,9 +32,9 @@ public class Problem_07_BiggestSubBSTInTree {
      * 采取后序遍历的方式
      *
      * @param head
-     * @param record，全局变量，想这种递归处理，前一个递归处理的结果作为 结果传给下一个递归，有些耦合，让人难以理解。但是其实
-     *                                         这个递归参数对本递归是没有作用的，只是存储递归返回的
-     *                                         一些参数而已
+     * @param record，全局变量，想这种递归处理，前一个递归处理的结果作为 结果
+     *  传给下一个递归，有些耦合，让人难以理解。但是其实
+     *  这个递归参数对本递归是没有作用的，只是存储递归返回的些参数而已
      * @return
      */
     public static Node posOrder(Node head, int[] record) {
