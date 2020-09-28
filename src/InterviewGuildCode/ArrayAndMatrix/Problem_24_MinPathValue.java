@@ -18,7 +18,7 @@ import java.util.Queue;
  */
 public class Problem_24_MinPathValue {
     public static int minPathValue(int[][] m) {
-        if (m == null || m.length == 0 || m[0].length == 0 || m[0][0] != 1 || m[m.length - 1][m[0].length-1] != 1) {
+        if (m == null || m.length == 0 || m[0].length == 0 || m[0][0] != 1 || m[m.length - 1][m[0].length - 1] != 1) {
             return 0;
         }
         int[][] map = new int[m.length][m[0].length];
@@ -55,11 +55,11 @@ public class Problem_24_MinPathValue {
     }
 
     public static void main(String[] args) {
-        int[][] matrix = { { 1, 0, 1, 1, 1, 0, 1, 1, 1 },
-                { 1, 0, 1, 0, 1, 0, 1, 0, 1 }, { 1, 0, 1, 0, 1, 0, 1, 0, 1 },
-                { 1, 0, 1, 0, 1, 0, 1, 0, 1 }, { 1, 0, 1, 0, 1, 0, 1, 0, 1 },
-                { 1, 0, 1, 0, 1, 0, 1, 0, 1 }, { 1, 0, 1, 0, 1, 0, 1, 0, 1 },
-                { 1, 0, 1, 0, 1, 0, 1, 0, 1 }, { 1, 1, 1, 0, 1, 1, 1, 0, 1 } };
+        int[][] matrix = {{1, 0, 1, 1, 1, 0, 1, 1, 1},
+                {1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1},
+                {1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1},
+                {1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1},
+                {1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 1, 1, 0, 1, 1, 1, 0, 1}};
         System.out.println(minPathValue(matrix));
 
 
