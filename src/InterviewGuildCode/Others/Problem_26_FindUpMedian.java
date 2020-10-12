@@ -1,4 +1,4 @@
-package chapter_9_others;
+package InterviewGuildCode.Others;
 
 import java.util.Arrays;
 
