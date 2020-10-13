@@ -8,9 +8,13 @@ import java.util.Stack;
  *要求：
  * 数组没有重复元素；maxtree是一棵二叉树，数组的每一个值对应一个二叉树节点；每一棵子树最大值在跟节点
  * 数组长度为N，要求时间复杂度为O(N),额外空间复杂度为O(N)
- * 思路：
- * 1：每一个数的父节点是它左边第一个比它大的数和右边第一个比它大的数中，较小的那个
- * 2：一个数左边没有比它大的数，右边也没有比它大的数，则该数是跟节点
+ *
+ * 思路1：最大堆的建立过程时间复杂度O(NlogN)
+ *
+ * 思路2：最大树的答案不是唯一的，存在多个满足条件的最大树。按照下面规则可以
+ * 得到一颗二叉树，而且父节点比孩子节点大，满足要求。
+ *  1：每一个数的父节点是它左边第一个比它大的数和右边第一个比它大的数中，较小的那个
+ *  2：一个数左边没有比它大的数，右边也没有比它大的数，则该数是跟节点
  */
 public class Problem_08_MaxTree {
     public static class Node {
@@ -31,6 +35,10 @@ public class Problem_08_MaxTree {
         Stack<Node> stack = new Stack<Node>();
         HashMap<Node, Node> lBigMap = new HashMap<Node, Node>();
         HashMap<Node, Node> rBigMap = new HashMap<Node, Node>();
+        //得到每个节点左边第一个比它大的数，使用的是栈的思想，类似求滑动窗口
+        //最大数组一样。每个节点左边第一个比它大的数，一定是在栈中前面一个节点
+        //每个节点都会入栈出栈一次，在出栈的时候记录使用map记录对应的值
+        // 时间复杂度O(N)
         for (int i = 0; i != nArr.length; i++) {
             Node curNode = nArr[i];
             while ((!stack.isEmpty()) && stack.peek().value < curNode.value) {
@@ -41,6 +49,7 @@ public class Problem_08_MaxTree {
         while (!stack.isEmpty()) {
             popStackSetMap(stack, lBigMap);
         }
+        //得到每个节点右边第一个比它大的数，时间复杂度O(N)
         for (int i = nArr.length - 1; i != -1; i--) {
             Node curNode = nArr[i];
             while ((!stack.isEmpty()) && stack.peek().value < curNode.value) {
@@ -51,6 +60,8 @@ public class Problem_08_MaxTree {
         while (!stack.isEmpty()) {
             popStackSetMap(stack, rBigMap);
         }
+
+        //遍历每个节点，找到每个节点对应的父节点，最后没有父节点的就是跟节点
         Node head = null;
         for (int i = 0; i != nArr.length; i++) {
             Node curNode = nArr[i];

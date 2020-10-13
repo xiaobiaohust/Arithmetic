@@ -9,7 +9,7 @@ import java.util.Stack;
  *      栈的特点是先进后出，队列的特点是先进先出，两个栈正好能把顺序反过来实现类似队列的操作
  */
 
-public class TwoStackImplementQueue {
+public class Problem_02_TwoStacksImplementQueue {
 
     public static class TwoStacksQueue{
         private Stack<Integer> stackPush;

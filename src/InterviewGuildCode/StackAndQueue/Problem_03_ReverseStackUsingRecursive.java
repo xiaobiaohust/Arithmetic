@@ -9,7 +9,9 @@ import java.util.Stack;
  *      栈的特点是先进后出，队列的特点是先进先出，两个栈正好能把顺序反过来实现类似队列的操作
  */
 
-public class ReverseStackUsingRecursive {
+public class Problem_03_ReverseStackUsingRecursive {
+
+    //递归删除栈底元素并返回
     public static int getAndRemoveLastElement(Stack<Integer>stack){
         int result = stack.pop();
         if(stack.isEmpty()){
@@ -22,6 +24,7 @@ public class ReverseStackUsingRecursive {
         }
     }
 
+    //递归得到栈底元素，在入栈
     public static void reverse(Stack<Integer>stack){
         if(stack.isEmpty()){
             return;

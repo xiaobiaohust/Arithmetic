@@ -10,7 +10,7 @@ import java.util.Stack;
  */
 
 
-public class GetMinStack {
+public class Problem_01_GetMinStack {
     /**
      * 方案一：
      * 压入规则：当前数据为newNum，先压入stackData，判断stackMin是否为空
