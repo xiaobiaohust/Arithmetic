@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * 仅用递归对一个栈的数据进行反转
  * 思路：
- *      栈的特点是先进后出，队列的特点是先进先出，两个栈正好能把顺序反过来实现类似队列的操作
+ *   递归本身就是一个入栈和出栈的过程
  */
 
 public class Problem_03_ReverseStackUsingRecursive {
