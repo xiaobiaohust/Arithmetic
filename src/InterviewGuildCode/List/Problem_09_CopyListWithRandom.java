@@ -8,7 +8,9 @@ import java.util.HashMap;
  *
  * 要求：时间复杂度O（N）,不使用额外的数据结构
  * 方法一：使用哈希表，时间复杂度O（N），空间复杂度O（N），使用原始链表的节点作为key
- * 方法二：
+ * 方法二：不使用额外的数据结构
+ *  1：每个节点生成一个副本，连接在节点的后面，对于每一个副本节点，都可以通过他的前一个节点对应的
+ *  rand指针确定他的rand指针
  */
 public class Problem_09_CopyListWithRandom {
     public static class Node {
