@@ -27,7 +27,6 @@ public class Problem_24_MinPathValue {
         Queue<Integer> cQ = new LinkedList<>();
         rQ.add(0);
         cQ.add(0);
-        int res = 0;
         int r = 0;
         int c = 0;
         while (!rQ.isEmpty()) {
@@ -42,7 +41,7 @@ public class Problem_24_MinPathValue {
             walkTo(m, map, map[r][c], r, c + 1, rQ, cQ);
 
         }
-        return res;
+        return 0;
     }
 
     public static void walkTo(int[][] m, int[][] map, int pre, int r, int c, Queue<Integer> rQ, Queue<Integer> cQ) {
