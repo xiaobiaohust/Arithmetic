@@ -14,11 +14,11 @@ public class Problem_02_PrintEdgeNodes {
         }
     }
 
-    public static int getHeight(Node head){
-        if(head==null){
+    public static int getHeight(Node head) {
+        if (head == null) {
             return 0;
         }
-        return Math.max(getHeight(head.left),getHeight(head.right))+1;
+        return Math.max(getHeight(head.left), getHeight(head.right)) + 1;
     }
 
     public static void main(String[] args) {
