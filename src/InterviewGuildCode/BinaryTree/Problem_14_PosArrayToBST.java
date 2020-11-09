@@ -26,7 +26,10 @@ public class Problem_14_PosArrayToBST {
             if(arr[end]>arr[i]){
                 less=i;
             }
-            more= more==end?i:more;
+            else{
+                more= more==end?i:more;
+            }
+
         }
         //二叉树左右子树只有一个
         if(less==-1||more==end){
