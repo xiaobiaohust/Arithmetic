@@ -1,7 +1,7 @@
 package InterviewGuildCode.StringProblem;
 
 /**
- * 去掉字符串中连续出现的K个0的子串，给定一个str和整数k，
+ * 去掉字符串中正好连续出现的K个0的子串，给定一个str和整数k，
  *要求：时间复杂度O(N)，额外空间复杂度O(1)
  */
 public class Problem_03_RemoveKZeros {
