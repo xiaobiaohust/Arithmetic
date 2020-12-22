@@ -16,7 +16,7 @@ public class Problem_03_CoinsMin {
      * 题1：
      * 思想：arr长度为N,生成行数为N，列数为aim+1的动态规划表dp,dp[i][j]
      * 表示可以任意使用arr[0：i]的货币，组成j所需要的最小张数
-     * dp[i][j] = min{dp[i-1][j],dp[i][j-arr[i]+1},如果j<arr[i],则越界了
+     * dp[i][j] = min{dp[i-1][j],dp[i][j-arr[i]]+1},如果j<arr[i],则越界了
      */
     public static int minCoins1(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {

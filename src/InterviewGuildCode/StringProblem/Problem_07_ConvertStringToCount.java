@@ -5,29 +5,30 @@ package InterviewGuildCode.StringProblem;
  * 给定一个字符串str，返回str的统计字符串
  */
 public class Problem_07_ConvertStringToCount {
-    public static String getCountString(String str){
-        if(str==null||str.length()==0){
+    public static String getCountString(String str) {
+        if (str == null || str.length() == 0) {
             return "";
         }
-        char[]chs = str.toCharArray();
+        char[] chs = str.toCharArray();
         String res = String.valueOf(chs[0]);
-        int num=1;
-        for(int i=1;i<chs.length;++i){
-            if(chs[i]==chs[i-1]){
+        int num = 1;
+        for (int i = 1; i < chs.length; ++i) {
+            if (chs[i] == chs[i - 1]) {
                 num++;
-            }else{
-                res = res+"_"+String.valueOf(num)+"_"+String.valueOf(chs[i]);
-                num=1;
+            } else {
+                res = res + "_" + String.valueOf(num) + "_" + String.valueOf(chs[i]);
+                num = 1;
             }
         }
-        res = res+"_"+String.valueOf(num);
+        res = res + "_" + String.valueOf(num);
         return res;
     }
 
     /**
      * 给定一个字符串的统计字符串，在给定一个整数index，原字符串上的
      * 第index个字符
-     * @param str
+     *
+     * @param cstr
      * @param index
      * @return
      */

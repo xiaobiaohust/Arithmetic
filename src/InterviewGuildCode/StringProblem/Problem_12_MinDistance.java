@@ -4,6 +4,9 @@ package InterviewGuildCode.StringProblem;
  * 数组中两个字符串的最小距离
  * 给定一个字符串数组strs，在给定两个字符串str1和str2，返回在strs中str1与
  * str2的最小距离，如果str1或str2为null或者不在strs当中，返回-1。
+ *
+ * 思路：
+ *      从左到右遍历，分别记录最近的str1和str2的位置，一旦出现str1和str2，更新位置，同时计算最小值
  */
 public class Problem_12_MinDistance {
     public static int minDistance(String[] strs, String str1, String str2) {

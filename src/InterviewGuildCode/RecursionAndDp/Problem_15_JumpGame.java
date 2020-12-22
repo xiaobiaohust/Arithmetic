@@ -11,9 +11,9 @@ public class Problem_15_JumpGame {
         if(arr==null||arr.length==0){
             return 0;
         }
-        int jump = 0;
-        int cur = 0;
-        int next = 0;
+        int jump = 0; //总共跳跃了多少步
+        int cur = 0; //当前所处的位置
+        int next = 0; //下一步跳跃可以到达的位置
         for(int i=0;i<arr.length;++i){
             if(cur<i){
                 jump++;

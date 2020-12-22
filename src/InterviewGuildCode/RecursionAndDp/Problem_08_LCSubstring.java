@@ -8,11 +8,14 @@ package InterviewGuildCode.RecursionAndDp;
 public class Problem_08_LCSubstring {
 
     /**
-     * 求矩阵dp的时间复杂度O(MxN)，整体时间复杂度O(MxN)，但是系数还是可以优化的
-     *
-     * @param str1
-     * @param str2
-     * @return
+     * 经典的动态规划时间复杂度O(MxN)，空间复杂度O(MxN)
+     * 生成大小M小N的dp矩阵，dp[i][j]的含义，在必须把str1[i]和str2[j]当做
+     * 公共子串最后一个字符的情况下，公共子串的最大长度
+     * 1：第一行，str2[i]==str1[0],则dp[0][i]=1,否则dp[0][i]=0
+     * 2：第一列，str1[i]==str2[0],则dp[i][0]=1,否则dp[i][0]=0
+     * 3：其他位置从左到右，从上到下，dp[i][j]的值有两种情况
+     * str1[i]!=str2[j]，则dp[i][j]=0
+     * str1[i]==str2[j],则dp[i][j]=dp[i-1][j-1]+1
      */
     public static String lcst1(String str1, String str2) {
         if (str1 == null || str2 == null || str1.length() == 0 || str2.length() == 0) {
@@ -34,16 +37,7 @@ public class Problem_08_LCSubstring {
         return str1.substring(ends - max + 1, ends + 1);
     }
 
-    /**
-     * 经典的动态规划时间复杂度O(MxN)，空间复杂度O(MxN)
-     * 生成大小M小N的dp矩阵，dp[i][j]的含义，在必须把str1[i]和str2[j]当做
-     * 公共子串最后一个字符的情况下，公共子串的最大长度
-     * 1：第一行，str2[i]==str1[0],则dp[0][i]=1,否则dp[0][i]=0
-     * 2：第一列，str1[i]==str2[0],则dp[i][0]=1,否则dp[i][0]=0
-     * 3：其他位置从左到右，从上到下，dp[i][j]的值有两种情况
-     * str1[i]!=str2[j]，则dp[i][j]=0
-     * str1[i]==str2[j],则dp[i][j]=dp[i-1][j-1]+1
-     */
+
     public static int[][] getdp(char[] str1, char[] str2) {
         int[][] dp = new int[str1.length][str2.length];
         for (int i = 0; i < str1.length; ++i) {
