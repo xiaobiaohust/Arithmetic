@@ -68,7 +68,7 @@ public class AVLTree extends AbstractSelfBalancingBinarySearchTree {
      * Go up from inserted node, and update height and balance informations if needed.
      * If some node balance reaches 2 or -2 that means that subtree must be rebalanced.
      * 
-     * @param node Inserted Node.
+     * @param node Inserted ListNode.
      */
     private void rebalance(AVLNode node) {
         while (node != null) {
@@ -170,7 +170,7 @@ public class AVLTree extends AbstractSelfBalancingBinarySearchTree {
     /**
      * Updates height and balance of the node.
      * 
-     * @param node Node for which height and balance must be updated.
+     * @param node ListNode for which height and balance must be updated.
      */
     private static final void updateHeight(AVLNode node) {
         int leftHeight = (node.left == null) ? -1 : ((AVLNode) node.left).height;
@@ -179,7 +179,7 @@ public class AVLTree extends AbstractSelfBalancingBinarySearchTree {
     }
 
     /**
-     * Node of AVL tree has height and balance additional properties. If balance
+     * ListNode of AVL tree has height and balance additional properties. If balance
      * equals 2 (or -2) that node needs to be re balanced. (Height is height of
      * the subtree starting with this node, and balance is difference between
      * left and right nodes heights).

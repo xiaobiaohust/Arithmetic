@@ -15,8 +15,8 @@ public abstract class AbstractSelfBalancingBinarySearchTree extends AbstractBina
     /**
      * Rotate to the left.
      * 
-     * @param node Node on which to rotate.
-     * @return Node that is in place of provided node after rotation.
+     * @param node ListNode on which to rotate.
+     * @return ListNode that is in place of provided node after rotation.
      */
     protected Node rotateLeft(Node node) {
         Node temp = node.right;
@@ -47,8 +47,8 @@ public abstract class AbstractSelfBalancingBinarySearchTree extends AbstractBina
     /**
      * Rotate to the right.
      * 
-     * @param node Node on which to rotate.
-     * @return Node that is in place of provided node after rotation.
+     * @param node ListNode on which to rotate.
+     * @return ListNode that is in place of provided node after rotation.
      */
     protected Node rotateRight(Node node) {
         Node temp = node.left;
