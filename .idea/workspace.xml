@@ -175,9 +175,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="883" />
+    <option name="x" value="737" />
     <option name="y" value="29" />
-    <option name="width" value="985" />
+    <option name="width" value="1131" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -201,6 +201,12 @@
               <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicCourse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
@@ -416,7 +422,7 @@
       <workItem from="1614044740388" duration="12951000" />
       <workItem from="1616031478388" duration="8530000" />
       <workItem from="1616550167462" duration="7896000" />
-      <workItem from="1617804188768" duration="13341000" />
+      <workItem from="1617804188768" duration="13931000" />
     </task>
     <task id="LOCAL-00004" summary="提交代码">
       <created>1597911559256</created>
@@ -765,13 +771,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="789755000" />
+    <option name="totallyTimeSpent" value="790345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="713" y="24" width="794" height="852" extended-state="0" />
-    <editor active="true" />
+    <frame x="595" y="24" width="912" height="852" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.16983695" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.38173303" />
       <window_info id="Structure" order="1" sideWeight="0.5018182" side_tool="true" weight="0.19113924" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
