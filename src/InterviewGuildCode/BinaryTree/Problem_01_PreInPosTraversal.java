@@ -65,18 +65,18 @@ public class Problem_01_PreInPosTraversal {
      * @param head
      */
     public static void preOrderUnRecur(Node head) {
-        if(head==null){
+        if (head == null) {
             return;
         }
         Stack<Node> stack = new Stack<>();
         stack.push(head);
         while (!stack.isEmpty()) {
-            head =stack.pop();
-            System.out.print(head.value+" ");
-            if(head.right!=null){
+            head = stack.pop();
+            System.out.print(head.value + " ");
+            if (head.right != null) {
                 stack.push(head.right);
             }
-            if(head.left!=null){
+            if (head.left != null) {
                 stack.push(head.left);
             }
         }
@@ -86,49 +86,52 @@ public class Problem_01_PreInPosTraversal {
     /**
      * 非递归中序遍历
      * 思想：每个节点都需要先入栈，访问左孩子之后再访问该节点
+     *
      * @param head
      */
-    public static void inOrderUnRecur(Node head){
-        if(head==null){
+    public static void inOrderUnRecur(Node head) {
+        if (head == null) {
             return;
         }
-        Stack<Node>stack =new Stack<>();
-        while (!stack.isEmpty()||head!=null){
-            if(head!=null){
+        Stack<Node> stack = new Stack<>();
+        while (!stack.isEmpty() || head != null) {
+            if (head != null) {
                 stack.push(head);
                 head = head.left;
-            }else{
+            } else {
                 head = stack.pop();
-                System.out.print(head.value+" ");
+                System.out.print(head.value + " ");
                 head = head.right;
             }
         }
         System.out.println();
     }
+
     /**
      * 非递归后序遍历
      * 思想：每个节点都需要先入栈，访问左孩子之后再访问该节点
+     *
      * @param head
      */
-    public static void posOrderUnrecur(Node head){
-        if(head==null){
+    public static void posOrderUnrecur(Node head) {
+        if (head == null) {
             return;
         }
-        Stack<Node>s1 = new Stack<>();
+        Stack<Node> s1 = new Stack<>();
         Stack<Node> s2 = new Stack<>();
         s1.push(head);
-        while (!s1.isEmpty()){
+        while (!s1.isEmpty()) {
             head = s1.pop();
             s2.push(head);
-            if(head.left!=null){
+            if (head.left != null) {
                 s1.push(head.left);
             }
-            if(head.right!=null){
+            if (head.right != null) {
                 s1.push(head.right);
             }
         }
-        while (!s2.isEmpty()){
-            System.out.print(s2.pop().value+" ");
+        while (!s2.isEmpty()) {
+            System.out.print(s2.pop().value + " ");
         }
     }
 

@@ -22,7 +22,7 @@ public class Problem_13_IsBalancedTree {
 
     public static boolean isBalance(Node head){
         boolean res = true;
-        getHeight(head,1,res);
+        System.out.println(getHeight(head,1,res));
         return res;
     }
     //返回以head为跟节点的子树的最大深度，同时更新全局变量res
@@ -53,6 +53,10 @@ public class Problem_13_IsBalancedTree {
         head.right.right = new Node(7);
 
         System.out.println(isBalance(head));
+
+        Node head1 = new Node(1);
+        System.out.println(isBalance(head1));
+
 
     }
 }

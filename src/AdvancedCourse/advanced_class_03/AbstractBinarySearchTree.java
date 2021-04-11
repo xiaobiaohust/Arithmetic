@@ -4,7 +4,7 @@ package AdvancedCourse.advanced_class_03;
  * Not implemented by zuochengyun
  * 
  * Abstract binary search tree implementation. Its basically fully implemented
- * binary search tree, just template method is provided for creating Node (other
+ * binary search tree, just template method is provided for creating ListNode (other
  * trees can have slightly different nodes with more info). This way some code
  * from standart binary search tree can be reused for other kinds of binary
  * trees.
@@ -30,11 +30,11 @@ public class AbstractBinarySearchTree {
 	 * @param value
 	 *            Value that node will have.
 	 * @param parent
-	 *            Node's parent.
+	 *            ListNode's parent.
 	 * @param left
-	 *            Node's left child.
+	 *            ListNode's left child.
 	 * @param right
-	 *            Node's right child.
+	 *            ListNode's right child.
 	 * @return Created node instance.
 	 */
 	protected Node createNode(int value, Node parent, Node left, Node right) {
@@ -47,7 +47,7 @@ public class AbstractBinarySearchTree {
 	 * 
 	 * @param element
 	 *            Element value.
-	 * @return Node with value provided, or null if not found.
+	 * @return ListNode with value provided, or null if not found.
 	 */
 	public Node search(int element) {
 		Node node = root;
@@ -118,7 +118,7 @@ public class AbstractBinarySearchTree {
 	 * Delete logic when node is already found.
 	 * 
 	 * @param deleteNode
-	 *            Node that needs to be deleted.
+	 *            ListNode that needs to be deleted.
 	 * 
 	 * @return New node that is in place of deleted node. Or null if element for
 	 *         delete was not found.
@@ -154,7 +154,7 @@ public class AbstractBinarySearchTree {
 	 * Put one node from tree (newNode) to the place of another (nodeToReplace).
 	 * 
 	 * @param nodeToReplace
-	 *            Node which is replaced by newNode and removed from tree.
+	 *            ListNode which is replaced by newNode and removed from tree.
 	 * @param newNode
 	 *            New node.
 	 * 

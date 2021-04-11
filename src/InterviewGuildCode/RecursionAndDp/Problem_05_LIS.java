@@ -7,7 +7,14 @@ package InterviewGuildCode.RecursionAndDp;
 public class Problem_05_LIS {
     /**
      * 方法一：时间复杂度O(N^2)
-     * dp[i]表示以arr[i]这个数结尾的情况下，arr[0:i]中的最大递增子序列长度
+     * 思路：
+     * 1、dp[i]表示以arr[i]这个数结尾的情况下，arr[0:i]中的最大递增子序列长度
+     *      dp[0]=1,假设计算到dp[i],求以arr[i]结尾的最长递增子序列，那么arr[0:i-1]
+     *      中比arr[i]小的数都可以作为倒数第二个数，从中选择对于dp最大的
+     * 2、左到右遍历dp之后，找到最大的值及其对应的位置k，就可以得到最长递增序列的长度及结尾
+     *    位置。
+     *    在从序列最后的位置从右向左遍历，如果arr[i]<arr[k]，且dp[k]=dp[i]+1,
+     *    则可以令i位置为倒数第二个元素，依次找到下一个元素，则可以找到最长递增序列
      */
     public static int[] lis1(int[] arr) {
         if (arr == null || arr.length == 0) {

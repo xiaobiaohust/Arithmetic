@@ -109,7 +109,7 @@ public class Problem_06_FindKMajority {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 1, 1, 2, 1 };
         printHalfMajor(arr);
-        int K = 4;
+        int K = 2;
         printKMajor(arr, K);
     }
 

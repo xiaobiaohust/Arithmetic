@@ -18,7 +18,7 @@ public class Problem_11_FindFirstIntersectNode {
     /**
      * 判断链表是否有环，有返回相交的第一个节点
      * 思想：第一次相遇时，快指针的步数是慢指针两倍，此时让快指针回原点，速度和慢指针
-     * 一样，再回到相遇的=点时，慢指针也走了两倍的距离，并且相遇，由于此时快慢指针速度一样
+     * 一样，当它们再次在第一次相遇点的时候，肯定会相遇，慢指针也走了两倍的距离，并且相遇，由于此时快慢指针速度一样
      * 所以向前回退几步，再次相遇的时候，肯定在相交的第一个节点
      */
     public static Node getLoopNode(Node head) {
@@ -88,13 +88,14 @@ public class Problem_11_FindFirstIntersectNode {
         Node n3 = n1;
         n2 = head;
         int lineLen = 0;
+        // 求出链表环之外的长度
         while (n1 != n2) {
             lineLen++;
             n1 = n1.next;
             n2 = n2.next;
         }
 
-
+        // 求环的长度
         n1 = n3.next;
         n2 = n3.next.next;
         int circleLen = 1;

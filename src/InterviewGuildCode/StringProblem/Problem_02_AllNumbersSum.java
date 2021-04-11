@@ -2,6 +2,7 @@ package InterviewGuildCode.StringProblem;
 
 /**
  * 字符串中数字子串的求和
+ * 给定字符串，求其中所有数字串所代表的数字之和
  * 要求：时间复杂度O(N)，空间复杂度O(1)
  */
 public class Problem_02_AllNumbersSum {

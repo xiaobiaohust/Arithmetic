@@ -21,22 +21,27 @@ public class Problem_08_BiggestBSTTopologyInTree {
 
     /**
      * 方法一：时间复杂度O(N^2)
-     * 思路：遍历求出以每个节点为跟节点的最大符合条件的拓扑结构，假设以h节点
-     * 为跟节点，先判断跟节点的孩子节点，根据大小每次向左或者右移动，最后能
-     * 到达原来节点的位置上，说明该节点是拓扑结构的一部分
+     * 思想：
+     * 1：搜索二叉树的条件是左子树小于跟节点，跟节点小于右子树。
+     *:2：遍历求出以每个节点为跟节点的最大符合条件的拓扑结构。
+     * 3：假设以h节点为跟节点，对于以h节点为跟节点的子树的所有节点，依次从跟节点这个位置开始
+     * 进行分流，小于走左边，大于走右边，如果该节点能回到自己位置，则属于搜索二叉树拓扑结构
+     * 一部分，否则不属于。
+     *
      * @param head
      * @return
      */
 
-    // 求出以head为跟节点的子树的最大拓扑结构，遍历二叉树一般递归最简单
+    // 求出以head为跟节点的子树的所有拓扑结构中的最大拓扑结构，
+    // 可以遍历二叉树一般递归最简单
     public static int bstTopoSize1(Node head) {
         if (head == null) {
             return 0;
         }
-        //判断以head为跟节点的最大拓扑结构
+        //通过遍历二叉树，分别判断以每个节点为跟节点的最大拓扑结构的节点数
         int max = maxTopo(head, head);
         max = Math.max(max, bstTopoSize1(head.left));
-        max = Math.max(max, bstTopoSize1(head.left));
+        max = Math.max(max, bstTopoSize1(head.right));
         return max;
     }
 
@@ -74,7 +79,6 @@ public class Problem_08_BiggestBSTTopologyInTree {
     /**
      * 先序遍历，会有很多重复的，使用map存起来，使用后序遍历，能够实现
      * 时间复杂度O(NlogN)
-     *
      */
     public static class Record {
         public int l;
@@ -85,10 +89,12 @@ public class Problem_08_BiggestBSTTopologyInTree {
             this.r = right;
         }
     }
+
     public static int bstTopoSize2(Node head) {
         Map<Node, Record> map = new HashMap<Node, Record>();
         return posOrder(head, map);
     }
+
     public static int posOrder(Node h, Map<Node, Record> map) {
         if (h == null) {
             return 0;
@@ -124,7 +130,6 @@ public class Problem_08_BiggestBSTTopologyInTree {
             return minus;
         }
     }
-
 
 
     // for test -- print tree

@@ -3,7 +3,7 @@ package InterviewGuildCode.ArrayAndMatrix;
 import java.util.HashSet;
 
 /**
- * 最长的可整合子数组的长度
+ * 最长的可整合子数组的长度,时间复杂度O(N^2)，空间复杂度O(N)
  * 整合数组定义，将一个数组排序之后，相邻两个数差的绝对值都为1，则为整合数组
  */
 public class Problem_08_LongestIntegratedLength {

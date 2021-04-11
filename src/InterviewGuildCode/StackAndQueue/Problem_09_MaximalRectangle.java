@@ -5,6 +5,7 @@ import java.util.Stack;
 
 /**
  * 求最大子矩阵的大小
+ * 给定一个矩阵，只有0和1，求其中全是1的所有矩形区域中，最大的矩形区域为1的数量
  *要求：矩阵大小为O(NxM),时间复杂度为O(NxM)
  * 思路：
  * 1：矩阵的行数为N，以每一行做切割，统计以当前行作为底的情况下，每个位置往上的1的数量，使用数字height表示
@@ -31,6 +32,7 @@ public class Problem_09_MaximalRectangle {
 		return maxArea;
 	}
 
+	//求每个height直方图对应的最大矩形面积
 	public static int maxRecFrombottom(int[]height){
 		if(height==null||height.length==0){
 			return 0;
@@ -39,13 +41,16 @@ public class Problem_09_MaximalRectangle {
 		Stack<Integer>stack = new Stack<>();
 		for(int i=0;i<height.length;++i){
 			while(!stack.isEmpty()&&height[i]<=height[stack.peek()]){
+				//stack pop节点的前一个节点为左边第一个比它小的节点，该节点之所以会pop出去，
+				//是因为i对应的节点比它小所以右边第一个比它小的元素就是i
 				int j=stack.pop();
-				int k = stack.isEmpty()?-1:stack.peek();
+				int k = stack.isEmpty()?-1:stack.peek();//j节点对应的前面第一个比它小的节点
 				int  curArea = (i-k-1)*height[j];
 				maxArea = Math.max(curArea,maxArea);
 			}
 			stack.push(i);
 		}
+		//对于栈中剩下的元素，右边没有比它小的元素所以可以拓展到最右边
 		while(!stack.isEmpty()){
 			int j= stack.pop();
 			int k = stack.isEmpty()?-1:stack.peek();

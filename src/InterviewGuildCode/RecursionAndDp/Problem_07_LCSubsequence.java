@@ -7,10 +7,17 @@ package InterviewGuildCode.RecursionAndDp;
 public class Problem_07_LCSubsequence {
 
     /**
-     * 通过生成dp的过程来求，只要对角生成的dp,对应的值才会增加
-     * @param str1
-     * @param str2
-     * @return
+     * 方法一：使用动态规划，如果str1的长度为M，str2的长度为N，生成大小M x N的矩阵dp
+     * dp[i][j]的含义是str1[0：i]与str2[0:j]的最长公共子序列的长度
+     * 1：第一列，只要str1中出现一个数和str2[0]相等，之后所有的都是1
+     * 2：第一行，只要str2中出现一个数和str1[0]相等，之后所有的都是1
+     * 3：对其他位置（i,j）
+     * * 可能是dp[i-1][j]。str1[i]与str2[j]不相等，str1[i]不在子序列当中
+     * * 可能是dp[i][j-1]。str1[i]与str2[j]不相等，str2[j]不在子序列当中
+     * * dp[i-1][j-1]+1。str1[i]与str2[j]相等
+     *
+     * 时间复杂度O(MxN)，如果不要求需要返回最长公共子序列，只求长度，
+     * 可以使用空间压缩的方法降低空间复杂度
      */
     public static String lcse(String str1, String str2) {
         if (str1 == null || str2 == null || str1.length() == 0 || str2.length() == 0) {
@@ -39,19 +46,7 @@ public class Problem_07_LCSubsequence {
         return String.valueOf(res);
     }
 
-    /**
-     * 方法一：使用动态规划，如果str1的长度为M，str2的长度为N，生成大小M小N的矩阵dp
-     * dp[i][j]的含义是str1[0：i]与str2[0:j]的最长公共子序列的长度
-     * 1：第一列，只要str1中出现一个数和str2[0]相等，之后所有的都是1
-     * 2：第一行，只要str2中出现一个数和str1[0]相等，之后所有的都是1
-     * 3：对其他位置（i,j）
-     * * 可能是dp[i-1][j]。str1[i]与str2[j]不相等，str1[i]不在子序列当中
-     * * 可能是dp[i][j-1]。str1[i]与str2[j]不相等，str2[j]不在子序列当中
-     * * dp[i-1][j-1]+1。str1[i]与str2[j]相等
-     *
-     * 时间复杂度O(MxN)，如果不要求需要返回最长公共子序列，只求长度，
-     * 可以使用空间压缩的方法降低空间复杂度
-     */
+
 
     public static int[][] getdp(char[] str1, char[] str2) {
         int[][] dp = new int[str1.length][str2.length];

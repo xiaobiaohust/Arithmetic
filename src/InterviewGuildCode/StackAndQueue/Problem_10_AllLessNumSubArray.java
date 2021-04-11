@@ -4,16 +4,19 @@ package InterviewGuildCode.StackAndQueue;
 import java.util.LinkedList;
 
 /**
- * 最大值减去最小值小于或小等于num的子数组数量
+ * 最大值减去最小值小于或等于num的子数组数量
  *要求：给定数组arr和整数num，返回有多少个子数组满足如下情况：
- * max（arr[i:j]）-min(arr[i:j])<=num
- * s数组长度为N，要求算法复杂度为O(N)
- * 思路：
- * 1：找到arr的所有子数组，一共有O（n^2）个，每个子数组遍历找到最大值最小值
+ * max（arr[i:j]）-min(arr[i:j])<=nums,数组长度为N，
+ * 要求：算法复杂度为O(N)
+ *
+ * 理解：假设子数组arr[i,j]满足条件，则该子数组的所有子数组也满足条件；
+ * 假设子数组arr[i:j]不满足条件，则包含子数组的所有其他数组都不满足条件
+ *
+ * 思路1：暴力解法，找到arr的所有子数组，一共有O（n^2）个，每个子数组遍历找到最大值最小值
  * ，时间复杂度O（N），整体时间复杂度O (N^3)
  *
- * 2：使用双端队列解决这个问题，使用两个双端队列qmax、qmin来维护子窗口数组的
- * 最大值最小值更新结构。
+ * 思路2：使用双端队列解决这个问题，类似滑动窗口
+ * 使用两个双端队列qmax、qmin来维护子窗口数组的最大值最小值更新结构。
  * qmax的对头一种维持最大值，并且从对头到队尾依次递减；
  * qmin的对头一直维持最小值，并且从对头到队尾依次增加
  * i,j分别是子数组的头和尾，依次遍历原始数组，先固定子数组的头i,依次增加，同时更新qmax和qmin
@@ -31,6 +34,7 @@ public class Problem_10_AllLessNumSubArray {
         int j=0;
         int res=0;
         while(i<arr.length){
+            //只要满足条件，j就一直向右拓展
             while(j<arr.length){
                 while(!qmin.isEmpty()&&arr[qmin.peekLast()]>arr[j]){
                     qmin.pollLast();

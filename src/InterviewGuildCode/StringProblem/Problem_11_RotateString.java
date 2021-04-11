@@ -6,7 +6,7 @@ package InterviewGuildCode.StringProblem;
 public class Problem_11_RotateString {
     /**
      * 题一
-     * 给定一个字符串类型的数组chs,在单词间做逆序调整，对空格的位置没要求
+     * 给定一个字符类型的数组chs,在单词间做逆序调整，对空格的位置没要求
      * 思想：首先将chs翻转一下，导致单词内部也翻转了一遍，再将单词内部在翻转一遍就OK
      */
     public static void rotateWord(char[] chs) {

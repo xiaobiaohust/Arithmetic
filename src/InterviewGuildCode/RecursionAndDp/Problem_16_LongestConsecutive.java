@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 /**
  * 数组中的最长连续序列
+ * 给定无序数组arr，返回其中最长的连续序列的长度
  * 使用哈希表实现时间复杂度O(N)，额外空间复杂度O(N)
  */
 public class Problem_16_LongestConsecutive {
@@ -37,7 +38,7 @@ public class Problem_16_LongestConsecutive {
     }
 
     public static void main(String[] args) {
-        int[] arr = {100, 4, 200, 1, 3, 2};
+        int[] arr = {5,100, 4, 200, 1, 3, 2};
         System.out.println(longestConsecutive(arr));
 
     }

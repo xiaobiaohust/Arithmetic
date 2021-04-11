@@ -45,7 +45,7 @@ public class Problem_04_FindMinKNums {
     // 向下调整堆
     public static void heapify(int[]arr,int index,int heapsize){
         int left = index*2+1;
-        int right = index*2+1;
+        int right = index*2+2;
         int largest = index;
         while (left<heapsize){
             if(arr[left]>arr[largest]){
