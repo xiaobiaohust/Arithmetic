@@ -32,6 +32,7 @@ public class Code_05_MergeSort {
 		while (p1 <= m && p2 <= r) {
 			help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
 		}
+		// 直接将剩下的没有合并的元素放在末尾
 		while (p1 <= m) {
 			help[i++] = arr[p1++];
 		}
