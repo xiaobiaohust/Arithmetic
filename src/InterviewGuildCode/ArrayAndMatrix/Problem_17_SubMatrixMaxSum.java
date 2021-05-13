@@ -9,9 +9,9 @@ package InterviewGuildCode.ArrayAndMatrix;
  */
 public class Problem_17_SubMatrixMaxSum {
     public static int maxSum(int[][]m){
-        if(m==null||m.length==0||m[0].length==0){
-            return 0;
-        }
+            if(m==null||m.length==0||m[0].length==0){
+                return 0;
+            }
         int max= Integer.MIN_VALUE;
         int cur = 0;
         int[]s = null;
