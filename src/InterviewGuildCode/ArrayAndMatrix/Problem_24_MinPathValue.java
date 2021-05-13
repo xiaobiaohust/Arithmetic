@@ -60,7 +60,5 @@ public class Problem_24_MinPathValue {
                 {1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 0, 1, 0, 1, 0, 1, 0, 1},
                 {1, 0, 1, 0, 1, 0, 1, 0, 1}, {1, 1, 1, 0, 1, 1, 1, 0, 1}};
         System.out.println(minPathValue(matrix));
-
-
     }
 }

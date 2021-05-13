@@ -33,12 +33,16 @@ public class Problem_16_SubArrayMaxSum {
         if (arr == null || arr.length == 0) {
             return 0;
         }
-        int max = arr[1];
-        int sum = arr[1];
-        int minSum = arr[1];
-        for (int i = 2; i < arr.length; ++i) {
+        int max = arr[0];
+        int sum = arr[0];
+        int minSum = arr[0];
+        for (int i = 1; i < arr.length; ++i) {
             sum += arr[i];
-            max = Math.max(max, sum - minSum);
+            if(minSum>0){
+                max = Math.max(max, sum );
+            }else{
+                max = Math.max(max, sum - minSum);
+            }
             minSum = Math.min(minSum, sum);
         }
         return max;
@@ -60,7 +64,7 @@ public class Problem_16_SubArrayMaxSum {
         System.out.println(maxSum(arr2));
         System.out.println(maxSum2(arr2));
 
-        int[] arr3 = {-2, -3, -5, -1};
+        int[] arr3 = {2, 3, 5, 1};
         System.out.println(maxSum(arr3));
         System.out.println(maxSum2(arr3));
 

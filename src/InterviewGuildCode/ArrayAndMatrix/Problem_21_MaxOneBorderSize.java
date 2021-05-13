@@ -88,6 +88,4 @@ public class Problem_21_MaxOneBorderSize {
         printMatrix(matrix);
         System.out.println(getMaxSize(matrix));
     }
-
-
 }

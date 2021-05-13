@@ -11,6 +11,7 @@ package InterviewGuildCode.ArrayAndMatrix;
  *          min*arr[i]
  *          arr[i]
  * 3：最大累积乘是上述三个最大一个，最小累积乘是上述最小一个
+ * 上述方法有点想贪心算法
  */
 public class Problem_19_SubArrayMaxProduct {
     public static double maxProduct(double[]arr){

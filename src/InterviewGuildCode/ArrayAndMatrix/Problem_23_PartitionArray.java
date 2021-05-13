@@ -18,7 +18,6 @@ public class Problem_23_PartitionArray {
                 swap(arr, ++unic, i);
             }
         }
-
     }
 
     public static void swap(int[] arr, int index1, int index2) {
@@ -39,9 +38,6 @@ public class Problem_23_PartitionArray {
         printArray(arr1);
         leftUnique(arr1);
         printArray(arr1);
-
         System.out.println();
-
-
     }
 }
