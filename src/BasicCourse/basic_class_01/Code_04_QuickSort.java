@@ -24,12 +24,12 @@ public class Code_04_QuickSort {
 			quickSort(arr, l, p[0] - 1);
 			quickSort(arr, p[1] + 1, r);
 		}
-	}
+		}
 
-	public static int[] partition(int[] arr, int l, int r) {
-		int less = l - 1;
-		int more = r;
-		while (l < more) {
+		public static int[] partition(int[] arr, int l, int r) {
+			int less = l - 1;
+			int more = r;
+			while (l < more) {
 			if (arr[l] < arr[r]) {
 				swap(arr, ++less, l++);
 			} else if (arr[l] > arr[r]) {

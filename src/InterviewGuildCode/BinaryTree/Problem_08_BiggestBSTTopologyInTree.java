@@ -46,7 +46,9 @@ public class Problem_08_BiggestBSTTopologyInTree {
     }
 
     /**
-     * 在以head为跟节点的最大拓扑结构中，以node为根节点的最大子拓扑结构
+     * 在以head为跟节点的子树中，求以head为跟节点的最大拓扑结构的数目
+     * 1、先判断head是否是最大拓扑结构的一部分，是，则遍历左右子树
+     * 判断Node是否属于最大拓扑结构的一部分，属于，则遍历其对应的左右子树，以node为根节点的最大拓扑结构
      *
      * @param head
      * @param node
