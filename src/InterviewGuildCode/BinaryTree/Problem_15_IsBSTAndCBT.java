@@ -48,8 +48,8 @@ public class Problem_15_IsBSTAndCBT {
         int rMax = record[1];
 
         if (flagLeft && flagRight && head.value > lMax && head.value < rMin) {
-            record[0] = Math.min(record[0], head.value);
-            record[1] = Math.max(record[1], head.value);
+            record[0] = Math.min(lMin, head.value);
+            record[1] = Math.max(rMax, head.value);
             return true;
         } else {
             return false;
@@ -146,7 +146,7 @@ public class Problem_15_IsBSTAndCBT {
         head.left.left = new Node(1);
         head.left.right = new Node(3);
         head.right.left = new Node(5);
-        head.right.right = new Node(4);
+        head.right.right = new Node(7);
 
         printTree(head);
         System.out.println(isBST1(head));
