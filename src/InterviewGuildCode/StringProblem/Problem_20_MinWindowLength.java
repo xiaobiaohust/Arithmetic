@@ -6,8 +6,13 @@ package InterviewGuildCode.StringProblem;
  * 要求：str1的长度为N，时间复杂度为O(N)
  *
  * 思想：
- * 1：使用几个map来存储str2的分布，也就是子串需要满足的每个字符串的数量
- * 2：从左到右遍历str1，
+ * 方法一；暴力解法，对每一个子串，判断是否包含str2所有字符
+ * 方法二：
+ * 1、使用两个指针，left、right分别表示子串的左右边界，从左开始，right向右延伸，当子串包含时，此刻是以left为起点的子串，且包含str2的最小子串
+ * 2、left+1,重复上述，直到遍历结束，求出最小值
+ * 3、需要一个map来维护str1子串的字符统计数据，来比较是否和str2的map一样。最终是由一个map和match变量来维护
+ *
+
  */
 public class Problem_20_MinWindowLength {
     public static int minLength(String str1, String str2) {

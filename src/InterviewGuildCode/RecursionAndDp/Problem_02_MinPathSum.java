@@ -6,7 +6,7 @@ package InterviewGuildCode.RecursionAndDp;
 public class Problem_02_MinPathSum {
     /**
      * 给定一个矩阵，从左上角到右下角，每次只能向下或者向右，路径上所有数字和就是路径和，求最小路径和
-     * 思想：新建一个dp矩阵，可以实现时间复杂度O(MxN)，空间复杂度O(MxN)
+     * 思想：新建一个dp矩阵，dp[i][j]表示从（0,0）到（i,j）的最小路径和，可以实现时间复杂度O(MxN)，空间复杂度O(MxN)
      * @param m
      * @return
      */

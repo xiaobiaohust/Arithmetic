@@ -6,6 +6,8 @@ import java.util.HashMap;
  * 找到字符串的最长无重复字符子串
  * 要求：时间复杂度为O(N)
  * 思路：其实也是动态规划的问题，至少空间复杂度压缩了一下，使用了一个变量
+ * 1、map存储最近某个字符的位置
+ * pre表示以chs[i]结尾的情况下，左边能到什么地方
  */
 public class Problem_18_LongestNoRepeatSubstring {
 

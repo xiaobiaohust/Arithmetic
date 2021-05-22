@@ -2,6 +2,7 @@ package InterviewGuildCode.StringProblem;
 
 /**
  * 添加最少字符使字符串整体都是回文字符串
+ * 给定一个字符串str，可以在任意位置添加元素，使得其成为回文字符串，请返回添加情况最小的一种情况
  */
 public class Problem_13_PalindromeString {
     /**
