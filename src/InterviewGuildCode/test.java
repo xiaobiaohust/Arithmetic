@@ -5,55 +5,39 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 public class test {
-    public static int getIndexOf(String s, String m) {
-
-        if (s == null || m == null || s.length() < m.length()) {
-            return -1;
+    public static int num1(int n) {
+        if (n < 1) {
+            return 0;
         }
-        char[] ss = s.toCharArray();
-        char[] mm = m.toCharArray();
-        int[] nextArray = getNextArray(mm);
-        int si = 0;
-        int mi = 0;
-        while (si<ss.length&&mi<mm.length){
-            if(ss[si]==mm[mi]){
-                si++;
-                mi++;
-            }else if(nextArray[mi]==-1){
-                si++;
-            }else{
-                mi = nextArray[mi];
-            }
-        }
-        return mi==mm.length?si-mi:-1;
-
-
+        int[] record = new int[n];
+        return process(0, record, n);
     }
 
-    public static int[] getNextArray(char[] mm) {
-        if (mm.length == 1) {
-            return new int[]{-1};
+    public static int process(int i, int[] record, int n) {
+        if(i==n){
+            return 1;
         }
-        int[] next = new int[mm.length];
-        next[0] = -1;
-        next[1] = 0;
-        int i = 2;
-        int cn = next[i - 1];
-        while (i < next.length) {
-            if (mm[i - 1] == mm[cn]) {
-                next[i++] = ++cn;
-            } else if (cn > 0) {
-                cn = next[cn];
-            } else {
-                next[i++] = 0;
+        int res = 0;
+        for(int j=0;j<n;++j){
+            if(isValid(record,i,j)){
+                record[i]=j;
+                res+=process(i+1,record,n);
             }
         }
-        return next;
+        return res;
+    }
+    public static boolean isValid(int[] record, int i, int j) {
+        for (int k = 0; k < i; ++k) {
+            if (record[k] == j || Math.abs(i - k) == Math.abs(j - record[k])) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
         String str = "abcabcababaccc";
         String match = "ababac";
-        System.out.println(getIndexOf(str, match));
+        System.out.println(num1(8));
     }
 }

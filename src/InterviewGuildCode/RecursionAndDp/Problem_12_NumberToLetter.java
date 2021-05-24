@@ -8,7 +8,7 @@ package InterviewGuildCode.RecursionAndDp;
 public class Problem_12_NumberToLetter {
     /**
      * 暴力递归
-     * 定义一个递归函数p(i)，表示str[0~i-1]以及转换，str[i~N]还未转换
+     * 定义一个递归函数p(i)，表示str[0~i-1]已经转换，str[i~N]还未转换
      * 的情况下，合法的转换种数有多少
      * 1：p[N] = 1，表示整个字符串全部已转换，所以为1
      * 2：str[i]='0'，直接返回0。表示输入不合法
@@ -40,7 +40,7 @@ public class Problem_12_NumberToLetter {
     }
 
     /**
-     * 通过类似菲薄拉起数列的求解过程，从后往前计算
+     * 通过类似斐波拉契数列的求解过程，从后往前计算
      * p[N]=1
      * p[N-1] = chs[]
      * @param str
@@ -68,7 +68,7 @@ public class Problem_12_NumberToLetter {
         return cur;
     }
     public static void main(String[] args) {
-        String str = "781231783161018231";
+        String str = "78120031783161018231";
         System.out.println(num1(str));
         System.out.println(num2(str));
 
