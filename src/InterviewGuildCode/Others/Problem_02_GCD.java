@@ -13,7 +13,7 @@ public class Problem_02_GCD {
 
     public static void main(String[] args) {
 
-        System.out.println(gcd(18, 1));
+        System.out.println(gcd(18, 6));
 
     }
 }
