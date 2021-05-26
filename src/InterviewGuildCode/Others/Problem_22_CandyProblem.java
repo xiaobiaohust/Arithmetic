@@ -3,8 +3,10 @@ package InterviewGuildCode.Others;
 /**
  * 分糖果问题
  * 一群孩子做游戏，根据游戏得分来发糖果，每个孩子至少分到一棵糖果，任意两个
- * 孩子之间，得分较多的必须多拿一些糖果，返回最少需要多少糖果
+ * 孩子之间，得分较多的必须多拿一些糖果，返回最少需要多少糖果。给定一个数组arr表示得分，至少需要多少颗糖果
  * 要求：时间复杂度O(N)，额外空间复杂度O(1)
+ * 思路：
+ * 定义左坡、右坡，交界点选取左坡右坡的最大的一个
  */
 public class Problem_22_CandyProblem {
     public static int candy1(int[] arr) {
