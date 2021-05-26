@@ -30,24 +30,25 @@ public class Problem_27_FindKthMinNumber {
         int[] shortArr = arr1.length <= arr2.length ? arr1 : arr2;
         int S = shortArr.length;
         int L = longArr.length;
-        if(K<=S){
-            return getUpMedian(shortArr,0,K-1,longArr,0,K-1);
+        if (K <= S) {
+            return getUpMedian(shortArr, 0, K - 1, longArr, 0, K - 1);
         }
-        if(K>L){
-            if(shortArr[K-L-1]>=longArr[L-1]){
-                return shortArr[K-L-1];
+        if (K > L) {
+            if (shortArr[K - L - 1] >= longArr[L - 1]) {
+                return shortArr[K - L - 1];
             }
-            if(longArr[K-S-1]>=shortArr[S-1]){
-                return longArr[K-S-1];
+            if (longArr[K - S - 1] >= shortArr[S - 1]) {
+                return longArr[K - S - 1];
             }
-            return getUpMedian(shortArr,0,S-1,longArr,K-S,L-1);
+            return getUpMedian(shortArr, 0, S - 1, longArr, K - S, L - 1);
         }
-        if(longArr[K-S-1]>=shortArr[S-1]){
-            return longArr[K-S-1];
+        if (longArr[K - S - 1] >= shortArr[S - 1]) {
+            return longArr[K - S - 1];
         }
-        return getUpMedian(shortArr,0,S-1,longArr,K-S,K-1);
+        return getUpMedian(shortArr, 0, S - 1, longArr, K - S, K - 1);
 
     }
+
     public static int getUpMedian(int[] a1, int s1, int e1, int[] a2, int s2, int e2) {
         int mid1 = 0;
         int mid2 = 0;
@@ -68,6 +69,7 @@ public class Problem_27_FindKthMinNumber {
         }
         return Math.min(a1[s1], a2[s2]);
     }
+
     // For test, this method is inefficient but absolutely right
     public static int[] getSortedAllArray(int[] arr1, int[] arr2) {
         if (arr1 == null || arr2 == null) {
