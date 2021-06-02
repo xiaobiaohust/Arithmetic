@@ -1,5 +1,7 @@
 package InterviewGuildCode.StringProblem;
 
+import java.util.LinkedList;
+
 /**
  * 最小包含子串的长度
  * 给定字符串str1和str2，求str1的子串中含有str2所有字符的最小子串长度
@@ -50,6 +52,5 @@ public class Problem_20_MinWindowLength {
         String str1 = "adabbca";
         String str2 = "acb";
         System.out.println(minLength(str1, str2));
-
     }
 }

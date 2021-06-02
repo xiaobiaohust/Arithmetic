@@ -56,5 +56,6 @@ public class Problem_07_SlidingWindowMaxArray {
         int[] arr = {4, 3, 5, 4, 3, 3, 6, 7};
         int w = 3;
         printArray(getMaxWindow(arr, w));
+
     }
 }
