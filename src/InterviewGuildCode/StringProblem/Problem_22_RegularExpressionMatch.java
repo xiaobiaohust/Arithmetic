@@ -51,6 +51,7 @@ public class Problem_22_RegularExpressionMatch {
             }
             si++;
         }
+        // 还剩下最后一次，比如假设只有一个元素相同，上述while只有0次匹配，而没有1次匹配
         return process(s, e, si, ei + 2);
     }
 
@@ -84,6 +85,7 @@ public class Problem_22_RegularExpressionMatch {
                             break;
                         }
                         si++;
+
                     }
                     if (dp[i][j] != true) {
                         dp[i][j] = dp[si][j + 2];

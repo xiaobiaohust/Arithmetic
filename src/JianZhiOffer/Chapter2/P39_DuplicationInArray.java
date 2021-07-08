@@ -1,5 +1,4 @@
-package JianZhiOffer.chapter2;
-
+package JianZhiOffer.Chapter2;
 /**
  *  一个长度为n的数组，值得范围在0~n-1内，有一个或多个数字重复，求其中任意一个
  */

@@ -50,6 +50,7 @@ public class arrays {
      * 三：数组比较排序
      * 1：Comparable自然排序，
      * 继承Comparable,实现compareTo方法，接受一个对象参数；
+     *
      * 可通过Collections.sort()、Arrays.sort()排序
      * 实现了Comparable接口可用于TreeMap、TreeSet
      *     compareTo:

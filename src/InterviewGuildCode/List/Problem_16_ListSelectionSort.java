@@ -3,6 +3,7 @@ package InterviewGuildCode.List;
 /**
  * 单链表的选择排序
  * 要求：空间复杂度O（1）,只能选择几个有限变量，所有只能在原始链表中进行排序
+ * 代码乱七八糟的，需要整理和注释
  */
 public class Problem_16_ListSelectionSort {
     public static class Node {
