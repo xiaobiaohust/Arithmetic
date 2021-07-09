@@ -133,6 +133,33 @@ public class Problem_01_PreInPosTraversal {
         while (!s2.isEmpty()) {
             System.out.print(s2.pop().value + " ");
         }
+        System.out.println();
+    }
+
+    //后序遍历，只使用一个stack
+    //类似中序遍历，只不过在else中，需要先遍历右子树，在pop访问节点
+    public static void posOrderUnrecur2(Node head){
+        if(head==null){
+            return;
+        }
+        Stack<Node>stack = new Stack<>();
+        Node pre = null;
+        while (head!=null||!stack.isEmpty()){
+            if(head!=null){
+                stack.push(head);
+                head = head.left;
+            }else{
+                head = stack.peek().right;
+                if(head!=null&&pre!=head){
+                    stack.push(head);
+                    head = head.left;
+                }else{
+                    pre = stack.pop();
+                    System.out.print(pre.value+" ");
+                    head = null;
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -165,6 +192,7 @@ public class Problem_01_PreInPosTraversal {
         preOrderUnRecur(head);
         inOrderUnRecur(head);
         posOrderUnrecur(head);
+        posOrderUnrecur2(head);
 
 
     }
