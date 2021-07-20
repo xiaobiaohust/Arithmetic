@@ -21,8 +21,6 @@ public class P39_DuplicationInArray {
             return -1;
         //Arrays.sort(data); //或者使用内置函数进行排序
         quickSort(data,0,data.length-1);
-        if(data.length<2)
-            return -1;
         int prev = data[0];
         for(int i=1;i<data.length;i++){
             if(data[i]==prev)
