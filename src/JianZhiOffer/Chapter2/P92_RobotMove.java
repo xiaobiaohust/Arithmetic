@@ -6,11 +6,13 @@ package JianZhiOffer.Chapter2;
  */
 public class P92_RobotMove {
     public static int movingCount(int threshold,int rowlen,int collen){
-        for(int i=0;i<rowlen;++i){
-            for(int j=0;j<collen;++j){
 
-            }
-        }
+        boolean [][]visited = new boolean[rowlen][collen];
+        int count = process(threshold,rowlen,collen,0,0,visited);
+        return count;
+
+    }
+    public static int process(int threshold,int rowlen,int collen,int row,int len,boolean[][]visited){
 
     }
 
