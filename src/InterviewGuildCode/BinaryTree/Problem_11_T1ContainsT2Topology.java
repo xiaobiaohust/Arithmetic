@@ -5,6 +5,8 @@ package InterviewGuildCode.BinaryTree;
  * 时间复杂度O(NxM)
  * 思路：
  * 遍历t1的每个节点，若该节点与t2相同，则先序遍历t2，t1的节点跟着t2b遍历
+ *
+ * 有点类似二叉树的先序遍历中又嵌套这二叉树的先序遍历
  */
 public class Problem_11_T1ContainsT2Topology {
 
