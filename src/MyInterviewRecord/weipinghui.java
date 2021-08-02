@@ -1,14 +1,31 @@
-package InterviewGuildCode;
+package MyInterviewRecord;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-public class test {
-
+/**
+ * 基于给定词典，对输入的句子进行切割。
+ * 提示：词典可以是set，可以假定词的最小长度为1，最大长度为4
+ * 给定词典如下：
+ * [
+ *     "唯品",
+ *     "唯品会",
+ *     "阿迪达斯",
+ *     "阿迪",
+ *     "运动鞋",
+ *     "运动鞋男",
+ *     "！",
+ *     ","
+ *     "。"
+ * ]
+ *
+ * 输入："唯品会年终庆典！阿迪达斯运动鞋立即抢购。"
+ * 输出：["唯品会", "年终庆典", "！", "阿迪达斯", "运动鞋", "立即抢购", "。"]
+ */
+public class weipinghui {
     public static List<String> func() {
-        HashSet<String>set = new HashSet<>();
+        HashSet<String> set = new HashSet<>();
         set.add("唯品");
         set.add("唯品会");
         set.add("阿迪达斯");
@@ -56,6 +73,4 @@ public class test {
         System.out.println(func().toString());
 
     }
-
-
 }
