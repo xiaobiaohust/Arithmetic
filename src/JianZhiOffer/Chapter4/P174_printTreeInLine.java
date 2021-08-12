@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 分行从上到下打印二叉树  详情见面试指南，用了一种 不一样的方式
+ * 分行从上到下打印二叉树  详情见面试指南。本地使用了一种新的方式
  */
 public class P174_printTreeInLine {
     public static void printTreeInLine(TreeNode<Integer> root){
