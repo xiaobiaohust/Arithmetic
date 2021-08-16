@@ -7,6 +7,19 @@ package JianZhiOffer.Chapter5;
  */
 public class P209_KLeastNumbers {
     public static int getLeastNumbers(int[]arr,int k){
+        if(arr==null||arr.length==0||arr.length<k) return 0;
+        int left = 0;
+        int right = arr.length-1;
+        int index = par
+    }
 
+    public static  int partition(int[]arr,int left,int right){
+        int pivot = arr[left];
+        while (left<right){
+            while (left<right&&arr[right]>=pivot) right--;
+            if(left<right)
+            while (left<right&&arr[])
+
+        }
     }
 }
