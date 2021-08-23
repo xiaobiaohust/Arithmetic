@@ -11,7 +11,7 @@ public class P209_KLeastNumbers {
         int left = 0;
         int right = arr.length-1;
         int index = partition(arr,left,right);
-        while (index!=k-1)
+        return 1;
     }
 
     public static  int partition(int[]arr,int left,int right){
@@ -30,5 +30,18 @@ public class P209_KLeastNumbers {
         arr[i] = arr[j];
         arr[j] = tmp;
 
+    }
+    public int partition(int[] array,int low,int high,int k){
+        int temp = array[low];
+        while(low!=high){
+            while(low<high&&array[high]>=temp)
+                high--;
+            array[low] = array[high];
+            while(low<high&&array[low]<=temp)
+                low++;
+            array[high] = array[low];
+        }
+        array[low] = temp;
+        return low;
     }
 }
