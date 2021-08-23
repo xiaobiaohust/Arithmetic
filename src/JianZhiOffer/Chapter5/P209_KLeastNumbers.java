@@ -10,16 +10,24 @@ public class P209_KLeastNumbers {
         if(arr==null||arr.length==0||arr.length<k) return 0;
         int left = 0;
         int right = arr.length-1;
-        int index = par
+        int index = partition(arr,left,right);
+        while (index!=k-1)
     }
 
     public static  int partition(int[]arr,int left,int right){
         int pivot = arr[left];
         while (left<right){
             while (left<right&&arr[right]>=pivot) right--;
-            if(left<right)
-            while (left<right&&arr[])
+            while (left<right&&arr[left]<pivot)left++;
+            if(left<right) swap(arr,left,right);
 
         }
+        return left;
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
     }
 }
