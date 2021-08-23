@@ -91,7 +91,7 @@ public class Problem_03_CoinsMin {
         if (arr[0] <= aim) {
             dp[0][arr[0]] = 1;
         }
-        int left = MAX;
+        int left ;
         for (int i = 1; i < n; ++i) {
             for (int j = 1; j < aim + 1; ++j) {
                 left = MAX;
