@@ -7,6 +7,7 @@ public class Problem_02_MinPathSum {
     /**
      * 给定一个矩阵，从左上角到右下角，每次只能向下或者向右，路径上所有数字和就是路径和，求最小路径和
      * 思想：新建一个dp矩阵，dp[i][j]表示从（0,0）到（i,j）的最小路径和，可以实现时间复杂度O(MxN)，空间复杂度O(MxN)
+     *
      * @param m
      * @return
      */
@@ -26,20 +27,21 @@ public class Problem_02_MinPathSum {
         }
         for (int i = 1; i < row; ++i) {
             for (int j = 1; j < col; ++j) {
-                dp[i][j] = m[i][j] + Math.min(dp[i - 1][j],dp[i][j - 1])  ;
+                dp[i][j] = m[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
             }
         }
         printMatrix(dp);
-        return dp[row-1][col-1];
+        return dp[row - 1][col - 1];
     }
 
     /**
      * 方法二：对方法一进行优化，可以使空间复杂度降为O（min(M,N)）
+     *
      * @param m
      * @return
      */
-    public static int minPathSum2(int[][]m){
-        if(m==null||m.length==0||m[0]==null||m[0].length==0){
+    public static int minPathSum2(int[][] m) {
+        if (m == null || m.length == 0 || m[0] == null || m[0].length == 0) {
             return 0;
         }
         int more = Math.max(m.length, m[0].length); // 行数与列数较大的那个为more
@@ -83,10 +85,11 @@ public class Problem_02_MinPathSum {
             System.out.println();
         }
     }
+
     public static void main(String[] args) {
         // int[][] m = generateRandomMatrix(3, 4);
-        int[][] m = { { 1, 3, 5, 9 }, { 8, 1, 3, 4 }, { 5, 0, 6, 1 },
-                { 8, 8, 4, 0 } };
+        int[][] m = {{1, 3, 5, 9}, {8, 1, 3, 4}, {5, 0, 6, 1},
+                {8, 8, 4, 0}};
         printMatrix(m);
         System.out.println(minPathSum1(m));
         //System.out.println(minPathSum2(m));

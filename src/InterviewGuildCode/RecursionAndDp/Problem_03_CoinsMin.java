@@ -91,46 +91,46 @@ public class Problem_03_CoinsMin {
         if (arr[0] <= aim) {
             dp[0][arr[0]] = 1;
         }
-        int left ;
+        int left;
         for (int i = 1; i < n; ++i) {
             for (int j = 1; j < aim + 1; ++j) {
                 left = MAX;
-                if(j-arr[i]>=0&&dp[i-1][j-arr[i]]!=MAX){
-                    left =dp[i-1][j-arr[i]]+1;
+                if (j - arr[i] >= 0 && dp[i - 1][j - arr[i]] != MAX) {
+                    left = dp[i - 1][j - arr[i]] + 1;
                 }
-                dp[i][j] =Math.min(left,dp[i-1][j]);
+                dp[i][j] = Math.min(left, dp[i - 1][j]);
             }
         }
-        return dp[n-1][aim]!=MAX?dp[n-1][aim]:-1;
+        return dp[n - 1][aim] != MAX ? dp[n - 1][aim] : -1;
 
 
     }
 
-    public static int minCoins4(int[]arr,int aim){
-        if(arr==null||arr.length==0||aim<0){
+    public static int minCoins4(int[] arr, int aim) {
+        if (arr == null || arr.length == 0 || aim < 0) {
             return -1;
         }
         int n = arr.length;
         final int MAX = Integer.MAX_VALUE;
-        int[]dp = new int[aim+1];
-        for(int i=1;i<aim+1;++i){
+        int[] dp = new int[aim + 1];
+        for (int i = 1; i < aim + 1; ++i) {
             dp[i] = MAX;
         }
-        if(arr[0]<=aim){
-            dp[arr[0]]=1;
+        if (arr[0] <= aim) {
+            dp[arr[0]] = 1;
         }
         int left;
-        for(int i=1;i<n;++i){
+        for (int i = 1; i < n; ++i) {
             //必须从后往前，要不然前面的会被替换
-            for(int j=aim;j>0;j--){
-                left= MAX;
-                if(j-arr[i]>=0&&dp[j-arr[i]]!=MAX){
-                    left = dp[j-arr[i]]+1;
+            for (int j = aim; j > 0; j--) {
+                left = MAX;
+                if (j - arr[i] >= 0 && dp[j - arr[i]] != MAX) {
+                    left = dp[j - arr[i]] + 1;
                 }
-                dp[j] = Math.min(left,dp[j]);
+                dp[j] = Math.min(left, dp[j]);
             }
         }
-        return dp[aim]!=MAX?dp[aim]:-1;
+        return dp[aim] != MAX ? dp[aim] : -1;
     }
 
     public static void main(String[] args) {
@@ -139,7 +139,7 @@ public class Problem_03_CoinsMin {
         System.out.println(minCoins1(arr1, aim1));
         System.out.println(minCoins2(arr1, aim1));
 
-        int[] arr2 = { 10, 100, 2, 5, 5, 5, 10, 1, 1, 1, 2, 100 };
+        int[] arr2 = {10, 100, 2, 5, 5, 5, 10, 1, 1, 1, 2, 100};
         int aim2 = 223;
         System.out.println(minCoins3(arr2, aim2));
         System.out.println(minCoins4(arr2, aim2));
