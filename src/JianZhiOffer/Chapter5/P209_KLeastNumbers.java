@@ -14,6 +14,15 @@ public class P209_KLeastNumbers {
         return 1;
     }
 
+
+
+    public static void swap(int[] arr, int i, int j) {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+
+    }
+
     public static  int partition(int[]arr,int left,int right){
         int pivot = arr[left];
         while (left<right){
@@ -22,13 +31,6 @@ public class P209_KLeastNumbers {
             if(left<right) swap(arr,left,right);
         }
         return left;
-    }
-
-    public static void swap(int[] arr, int i, int j) {
-        int tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
-
     }
     public int partition2(int[] array,int low,int high){
         int temp = array[low];
