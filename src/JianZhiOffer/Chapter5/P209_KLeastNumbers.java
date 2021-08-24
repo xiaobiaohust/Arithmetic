@@ -20,7 +20,6 @@ public class P209_KLeastNumbers {
             while (left<right&&arr[right]>=pivot) right--;
             while (left<right&&arr[left]<pivot)left++;
             if(left<right) swap(arr,left,right);
-
         }
         return left;
     }
@@ -31,7 +30,7 @@ public class P209_KLeastNumbers {
         arr[j] = tmp;
 
     }
-    public int partition(int[] array,int low,int high,int k){
+    public int partition2(int[] array,int low,int high){
         int temp = array[low];
         while(low!=high){
             while(low<high&&array[high]>=temp)
@@ -41,7 +40,6 @@ public class P209_KLeastNumbers {
                 low++;
             array[high] = array[low];
         }
-
         array[low] = temp;
         return low;
     }

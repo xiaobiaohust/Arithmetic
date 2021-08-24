@@ -2,12 +2,16 @@ package MyInterviewRecord;
 
 import java.util.*;
 
-public class test3 {
+/**
+ * 云屋智能
+ */
+public class 云屋智能 {
     public static int MAX_VALUE =100000;
     public static Queue<Integer>queue = new LinkedList<>();
     public static int M = 100;
     public static int max_value = -1;
     public static int max_len = 0;
+    云屋智能 a = new 云屋智能();
 
     public static void fun(){
         int x1 = (int)(Math.random()*MAX_VALUE);

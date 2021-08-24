@@ -16,7 +16,7 @@ public class ShortCircuit {
     return val < 2;
   }
   static boolean test3(int val) {
-    print("test3(" + val + ")");
+    print("云屋智能(" + val + ")");
     print("result: " + (val < 3));
     return val < 3;
   }

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Random;
 
-public class weipinghui2 {
+public class 唯品会2 {
 
     public static String fun(String str) {
         String[] chs = str.split(" ");

@@ -23,7 +23,7 @@ import java.util.List;
  * 输入："唯品会年终庆典！阿迪达斯运动鞋立即抢购。"
  * 输出：["唯品会", "年终庆典", "！", "阿迪达斯", "运动鞋", "立即抢购", "。"]
  */
-public class weipinghui {
+public class 唯品会1 {
     public static List<String> func() {
         HashSet<String> set = new HashSet<>();
         set.add("唯品");

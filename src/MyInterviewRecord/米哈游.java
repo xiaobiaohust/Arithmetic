@@ -2,7 +2,11 @@ package MyInterviewRecord;
 
 import java.util.*;
 
-public class test5 {
+/**
+ *
+ */
+
+public class 米哈游 {
     public static int[] fun(String[] data) {
         HashMap<String, Set<String>> userToSession = new HashMap<>();
         HashMap<String, ArrayList> sessionToTime = new HashMap<>();
@@ -38,9 +42,7 @@ public class test5 {
             cost[i++] = costTime;
         }
 
-
-
-
+        return  new int[1];
 
     }
     public static int[] partition(int[] arr, int l, int r) {

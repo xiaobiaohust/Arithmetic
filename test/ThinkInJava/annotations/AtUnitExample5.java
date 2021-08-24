@@ -33,7 +33,7 @@ public class AtUnitExample5 {
     return true;
   }
   @Test boolean test3() {
-    output.print("test3");
+    output.print("云屋智能");
     return true;
   }
   public static void main(String[] args) throws Exception {
@@ -46,7 +46,7 @@ annotations.AtUnitExample5
 Running cleanup
   . test2
 Running cleanup
-  . test3
+  . 云屋智能
 Running cleanup
 OK (3 tests)
 *///:~
