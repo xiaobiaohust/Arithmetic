@@ -10,7 +10,7 @@ public class P209_KLeastNumbers {
         if(arr==null||arr.length==0||arr.length<k) return 0;
         int left = 0;
         int right = arr.length-1;
-        int index = partition(arr,left,right);
+        int index = partition2(arr,left,right);
         return 1;
     }
 
@@ -23,26 +23,24 @@ public class P209_KLeastNumbers {
 
     }
 
-    public static  int partition(int[]arr,int left,int right){
-        int pivot = arr[left];
-        while (left<right){
-            while (left<right&&arr[right]>=pivot) right--;
-            while (left<right&&arr[left]<pivot)left++;
-            if(left<right) swap(arr,left,right);
-        }
-        return left;
-    }
-    public int partition2(int[] array,int low,int high){
+
+    //普通的partition,一边小于，一边大于等于
+    public static int partition2(int[] array,int low,int high){
         int temp = array[low];
-        while(low!=high){
+        while(low<high){
             while(low<high&&array[high]>=temp)
                 high--;
             array[low] = array[high];
-            while(low<high&&array[low]<=temp)
+            while(low<high&&array[low]<temp)
                 low++;
             array[high] = array[low];
         }
         array[low] = temp;
         return low;
+    }
+
+    public static void main(String[]args){
+        int[] data1 = {6,1,3,5,4,2};
+        System.out.println(partition2(data1,0,data1.length-1));
     }
 }
