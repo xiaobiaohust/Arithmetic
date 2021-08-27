@@ -23,4 +23,10 @@ package JianZhiOffer.Chapter5;
  *
  */
 public class P214_StreamMedian {
+    /**
+     * 堆
+     */
+    public static class MedianFinder1{
+
+    }
 }
