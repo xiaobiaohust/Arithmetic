@@ -25,7 +25,7 @@ public class AtUnitExample5 {
     output.close();
   }
   @Test boolean test1() {
-    output.print("test1");
+    output.print("bigo3");
     return true;
   }
   @Test boolean test2() {
@@ -42,7 +42,7 @@ public class AtUnitExample5 {
   }
 } /* Output:
 annotations.AtUnitExample5
-  . test1
+  . bigo3
 Running cleanup
   . test2
 Running cleanup

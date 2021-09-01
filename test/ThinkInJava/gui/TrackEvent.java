@@ -17,7 +17,7 @@ public class TrackEvent extends JFrame {
     "mouseReleased", "mouseDragged", "mouseMoved"
   };
   private MyButton
-    b1 = new MyButton(Color.BLUE, "test1"),
+    b1 = new MyButton(Color.BLUE, "bigo3"),
     b2 = new MyButton(Color.RED, "test2");
   class MyButton extends JButton {
     void report(String field, String msg) {
