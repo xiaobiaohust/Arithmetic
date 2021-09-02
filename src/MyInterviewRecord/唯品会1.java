@@ -36,7 +36,7 @@ public class 唯品会1 {
         set.add(",");
         set.add("。");
         List<String> res = new ArrayList<>();
-        String query = "唯品会年终庆典！阿迪达斯运动鞋立即抢购抢购抢购。哈哈哈";
+        String query = "唯品会年终庆典！阿迪达斯运动鞋立即抢购抢购抢购。得物";
         boolean flag ;
         int preIndex = 0;
         for(int i=0;i<query.length();){
