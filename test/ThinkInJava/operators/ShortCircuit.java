@@ -6,7 +6,7 @@ import static net.mindview.util.Print.*;
 
 public class ShortCircuit {
   static boolean test1(int val) {
-    print("test1(" + val + ")");
+    print("bigo3(" + val + ")");
     print("result: " + (val < 1));
     return val < 1;
   }
@@ -16,7 +16,7 @@ public class ShortCircuit {
     return val < 2;
   }
   static boolean test3(int val) {
-    print("test3(" + val + ")");
+    print("云屋智能(" + val + ")");
     print("result: " + (val < 3));
     return val < 3;
   }
@@ -25,7 +25,7 @@ public class ShortCircuit {
     print("expression is " + b);
   }
 } /* Output:
-test1(0)
+bigo3(0)
 result: true
 test2(2)
 result: false

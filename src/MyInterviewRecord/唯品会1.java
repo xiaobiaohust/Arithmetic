@@ -23,7 +23,7 @@ import java.util.List;
  * 输入："唯品会年终庆典！阿迪达斯运动鞋立即抢购。"
  * 输出：["唯品会", "年终庆典", "！", "阿迪达斯", "运动鞋", "立即抢购", "。"]
  */
-public class weipinghui {
+public class 唯品会1 {
     public static List<String> func() {
         HashSet<String> set = new HashSet<>();
         set.add("唯品");
@@ -36,7 +36,7 @@ public class weipinghui {
         set.add(",");
         set.add("。");
         List<String> res = new ArrayList<>();
-        String query = "唯品会年终庆典！阿迪达斯运动鞋立即抢购抢购抢购。哈哈哈";
+        String query = "唯品会年终庆典！阿迪达斯运动鞋立即抢购抢购抢购。得物";
         boolean flag ;
         int preIndex = 0;
         for(int i=0;i<query.length();){

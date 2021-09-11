@@ -1,4 +1,4 @@
 package MyInterviewRecord;
 
-public class test {
+public class 拼多多 {
 }

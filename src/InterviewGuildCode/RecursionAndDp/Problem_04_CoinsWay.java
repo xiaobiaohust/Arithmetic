@@ -63,21 +63,21 @@ public class Problem_04_CoinsWay {
 
     /**
      * 动态规划
-     *思路：
-     *      生成行数为N、列数为aim+1 的dp矩阵，dp[i][j]的含义是在使用arr[0:i]
-     *   货币得情况下，组成钱数j有多少种方法
-     *
-     *   第一列全部是1，也就是组成钱数为0的方法数为1，不使用任何货币
-     *   第一行，当钱数是arr[0]的倍数时候，为1，否则为0
-     *   剩下位置记为dp[i][j],dp[i][j]由以下几个值累加
-     *      *  使用0张arr[i]货币，方法数为dp[i-1][j]
-     *      *  使用1张arr[i]货币，方法数为dp[i-1][j-arr[i]]
-     *      *   ...
-     *      *  使用K张arr[i]货币，方法数为dp[i-1][j-k*arr[i]]
-     *    最终dp[N-1][aim]的值就是最终结果
-     *复杂度：
-     *      最坏情况下计算dp[i][j]需要枚举dp[i-1][0:j]上的所有位置，
-     *      所以时间复杂度O(N x aim^2),空间复杂度O(N x aim)
+     * 思路：
+     * 生成行数为N、列数为aim+1 的dp矩阵，dp[i][j]的含义是在使用arr[0:i]
+     * 货币得情况下，组成钱数j有多少种方法
+     * <p>
+     * 第一列全部是1，也就是组成钱数为0的方法数为1，不使用任何货币
+     * 第一行，当钱数是arr[0]的倍数时候，为1，否则为0
+     * 剩下位置记为dp[i][j],dp[i][j]由以下几个值累加
+     * *  使用0张arr[i]货币，方法数为dp[i-1][j]
+     * *  使用1张arr[i]货币，方法数为dp[i-1][j-arr[i]]
+     * *   ...
+     * *  使用K张arr[i]货币，方法数为dp[i-1][j-k*arr[i]]
+     * 最终dp[N-1][aim]的值就是最终结果
+     * 复杂度：
+     * 最坏情况下计算dp[i][j]需要枚举dp[i-1][0:j]上的所有位置，
+     * 所以时间复杂度O(N x aim^2),空间复杂度O(N x aim)
      */
 
     public static int coins3(int[] arr, int aim) {
@@ -108,8 +108,8 @@ public class Problem_04_CoinsWay {
      * 动态规划的优化，
      * 时间复杂度O(N x aim),空间复杂度O(N x aim)
      * 思想：
-     *      优化的是非第一列和第一行，第三层for循环累加值除了第一个之外，
-     *      其结果就是dp[i][j-arr[i]]
+     * 优化的是非第一列和第一行，第三层for循环累加值除了第一个之外，
+     * 其结果就是dp[i][j-arr[i]]
      *
      * @param arr
      * @param aim
@@ -132,7 +132,7 @@ public class Problem_04_CoinsWay {
                 dp[i][j] += j - arr[i] >= 0 ? dp[i][j - arr[i]] : 0;
             }
         }
-        return dp[arr.length-1][aim];
+        return dp[arr.length - 1][aim];
     }
 
     /**
@@ -147,7 +147,7 @@ public class Problem_04_CoinsWay {
         if (arr == null || arr.length == 0 || aim < 0) {
             return 0;
         }
-        int[]dp = new int[aim + 1];
+        int[] dp = new int[aim + 1];
         for (int i = 0; i * arr[0] <= aim; ++i) {
             dp[i * arr[0]] = 1;
         }
