@@ -24,8 +24,6 @@ public class 得物2 {
             }
         }
         return dp[M][N];
-
-
     }
 
 
