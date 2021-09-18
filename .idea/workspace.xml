@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e4865b-25c0-408b-84d8-73bc8656e2f6" name="MyChange" comment="7.26 10道">
-      <change beforePath="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_04_CoinsWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_04_CoinsWay.java" afterDir="false" />
+    <list default="true" id="55e4865b-25c0-408b-84d8-73bc8656e2f6" name="MyChange" comment="9.2 3">
+      <change beforePath="$PROJECT_DIR$/src/MyInterviewRecord/得物2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyInterviewRecord/得物2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,91 +35,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_06_BucketSort.java">
+        <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/百度nlp_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_02/Code_03_KMP_T1SubtreeEqualsT2.java">
+        <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/百度nlp_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P209_KLeastNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_02/Code_01_KMP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_02/Code_06_BFPRT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/Others/Problem_31_KMPAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_01_FibonacciProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_02_MinPathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_03_CoinsMin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_04_CoinsWay.java">
+        <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/得物2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="161">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -148,6 +95,7 @@
       <find>Node</find>
       <find>gap</find>
       <find>compare</find>
+      <find>中位</find>
     </findStrings>
     <replaceStrings>
       <replace>BinaryNode</replace>
@@ -165,30 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/chapter2/P39_DuplicationInArray.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P39_DuplicationInArray.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P44_FindInPartiallySortedMatrix.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P51_ReplaceSpaces.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P58_PrintListInReversedOrder.java" />
-        <option value="$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_01_PreInPosTraversal.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P60_TraversalOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P62_ConstructBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P65_NextNodeInBinaryTrees.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P68_QueueWithTwoStacks.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P71_StackWithTwoQueues.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P74_Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_01_InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P82_MinNumberInRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P89_StringPathInMatrix.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P92_RobotMove.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P96_CuttingRope.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter2/P100_NumberOf1InBinary.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P113_Power.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P114_Print1ToMaxOfNDigits.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P119_DeleteNodeInList.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P122_deleteDuplicatedNode.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P124_RegularExpressionsMatching.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P127_NumberStrings.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter3/P129_ReorderArray.java" />
@@ -211,11 +135,35 @@
         <option value="$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_04_QuickSort.java" />
         <option value="$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_05_MergeSort.java" />
         <option value="$PROJECT_DIR$/src/MyInterviewRecord/test2.java" />
-        <option value="$PROJECT_DIR$/src/MyInterviewRecord/test5.java" />
         <option value="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_01_FibonacciProblem.java" />
-        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P209_KLeastNumbers.java" />
-        <option value="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_03_CoinsMin.java" />
         <option value="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_04_CoinsWay.java" />
+        <option value="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_02_MinPathSum.java" />
+        <option value="$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_03_CoinsMin.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/test5.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/YunWuZhiNeng.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/米哈游.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/云屋智能.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P209_KLeastNumbers.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/Tools/Partition.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/Tools/超参数.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/超参数.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P214_StreamMedian.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/哈喽.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/test1.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/bigo3.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/哈哈哈.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/得物.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/小冰.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/bilibil.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/huolala.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/货拉拉1.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/字节.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/百度.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/字节2.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/百度nlp_1.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/字节3.java" />
+        <option value="$PROJECT_DIR$/src/MyInterviewRecord/得物2.java" />
+        <option value="$PROJECT_DIR$/test.txt" />
       </list>
     </option>
   </component>
@@ -225,10 +173,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="533" />
-    <option name="width" value="1213" />
-    <option name="height" value="1064" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="y" value="11" />
+    <option name="width" value="1326" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -260,56 +209,6 @@
             </path>
             <path>
               <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicCourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="InterviewGuildCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="InterviewGuildCode" type="462c0819:PsiDirectoryNode" />
-              <item name="RecursionAndDp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JianZhiOffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JianZhiOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JianZhiOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MyInterviewRecord" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Arithmetic" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -333,7 +232,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -360,13 +259,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem_02_MinPathSum">
-    <configuration name="Code_06_BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicCourse.basic_class_01.Code_06_BucketSort" />
+  <component name="RunManager" selected="Application.超参数">
+    <configuration name="超参数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.超参数" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicCourse.basic_class_01.*" />
+          <option name="PATTERN" value="MyInterviewRecord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P159_SymmetricalBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JianZhiOffer.Chapter4.P159_SymmetricalBinaryTree" />
+    <configuration name="货拉拉1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.货拉拉1" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianZhiOffer.Chapter4.*" />
+          <option name="PATTERN" value="MyInterviewRecord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P179_SequenceOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JianZhiOffer.Chapter4.P179_SequenceOfBST" />
+    <configuration name="得物" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.得物" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianZhiOffer.Chapter4.*" />
+          <option name="PATTERN" value="MyInterviewRecord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -400,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P182_FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JianZhiOffer.Chapter4.P182_FindPath" />
+    <configuration name="小冰" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.小冰" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JianZhiOffer.Chapter4.*" />
+          <option name="PATTERN" value="MyInterviewRecord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,12 +312,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_02_MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewGuildCode.RecursionAndDp.Problem_02_MinPathSum" />
+    <configuration name="哈哈哈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.哈哈哈" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewGuildCode.RecursionAndDp.*" />
+          <option name="PATTERN" value="MyInterviewRecord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="哈喽" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.哈喽" />
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyInterviewRecord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bigo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.bigo3" />
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyInterviewRecord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bilibil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyInterviewRecord.bilibil" />
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyInterviewRecord.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -427,19 +365,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P159_SymmetricalBinaryTree" />
-      <item itemvalue="Application.P179_SequenceOfBST" />
-      <item itemvalue="Application.P182_FindPath" />
-      <item itemvalue="Application.Code_06_BucketSort" />
-      <item itemvalue="Application.Problem_02_MinPathSum" />
+      <item itemvalue="Application.超参数" />
+      <item itemvalue="Application.bigo3" />
+      <item itemvalue="Application.bilibil" />
+      <item itemvalue="Application.货拉拉1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Problem_02_MinPathSum" />
-        <item itemvalue="Application.Code_06_BucketSort" />
-        <item itemvalue="Application.P182_FindPath" />
-        <item itemvalue="Application.P179_SequenceOfBST" />
-        <item itemvalue="Application.P159_SymmetricalBinaryTree" />
+        <item itemvalue="Application.货拉拉1" />
+        <item itemvalue="Application.bilibil" />
+        <item itemvalue="Application.bigo3" />
+        <item itemvalue="Application.超参数" />
       </list>
     </recent_temporary>
   </component>
@@ -536,126 +472,20 @@
       <workItem from="1629074937467" duration="8386000" />
       <workItem from="1629596454209" duration="12546000" />
       <workItem from="1629707149079" duration="434000" />
-      <workItem from="1629708455329" duration="1281000" />
-    </task>
-    <task id="LOCAL-00031" summary="9.21 4个,还有未完成">
-      <created>1600687368747</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1600687368747</updated>
-    </task>
-    <task id="LOCAL-00032" summary="9.22 3个,还有未完成">
-      <created>1600772608385</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1600772608385</updated>
-    </task>
-    <task id="LOCAL-00033" summary="9.23 7个,">
-      <created>1600856498411</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1600856498411</updated>
-    </task>
-    <task id="LOCAL-00034" summary="9.24 7个,">
-      <created>1600936000198</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1600936000198</updated>
-    </task>
-    <task id="LOCAL-00035" summary="9.24 10个,">
-      <created>1600944768834</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1600944768834</updated>
-    </task>
-    <task id="LOCAL-00036" summary="9.25 4个,">
-      <created>1601023081062</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1601023081062</updated>
-    </task>
-    <task id="LOCAL-00037" summary="9.27 5个,">
-      <created>1601201269950</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1601201269950</updated>
-    </task>
-    <task id="LOCAL-00038" summary="9.28 3个,">
-      <created>1601293600852</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1601293600852</updated>
-    </task>
-    <task id="LOCAL-00039" summary="9.29 7个,">
-      <created>1601369800215</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1601369800215</updated>
-    </task>
-    <task id="LOCAL-00040" summary="10.9 3个,">
-      <created>1602229755526</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1602229755526</updated>
-    </task>
-    <task id="LOCAL-00041" summary="10.12 3个,">
-      <created>1602505318904</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1602505318904</updated>
-    </task>
-    <task id="LOCAL-00042" summary="10.13 回顾8个,">
-      <created>1602575824499</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1602575824499</updated>
-    </task>
-    <task id="LOCAL-00043" summary="11.2 回顾14个,">
-      <created>1604313620801</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1604313620801</updated>
-    </task>
-    <task id="LOCAL-00044" summary="11.2 回顾6个,">
-      <created>1604404971483</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1604404971483</updated>
-    </task>
-    <task id="LOCAL-00045" summary="11.4 回顾20个,">
-      <created>1604485280104</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1604485280104</updated>
-    </task>
-    <task id="LOCAL-00046" summary="11.5 回顾10个,">
-      <created>1604560586656</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1604560586656</updated>
-    </task>
-    <task id="LOCAL-00047" summary="11.6 回顾7个,">
-      <created>1604647881217</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1604647881217</updated>
+      <workItem from="1629708455329" duration="30677000" />
+      <workItem from="1630201970530" duration="6974000" />
+      <workItem from="1630369877483" duration="898000" />
+      <workItem from="1630388004086" duration="4926000" />
+      <workItem from="1630499915989" duration="2407000" />
+      <workItem from="1630544293323" duration="9562000" />
+      <workItem from="1630888873680" duration="5490000" />
+      <workItem from="1631060957074" duration="9007000" />
+      <workItem from="1631324777646" duration="811000" />
+      <workItem from="1631494586223" duration="4150000" />
+      <workItem from="1631533607704" duration="465000" />
+      <workItem from="1631598737169" duration="3463000" />
+      <workItem from="1631668192265" duration="8297000" />
+      <workItem from="1631858414023" duration="5097000" />
     </task>
     <task id="LOCAL-00048" summary="11.9 回顾9个,">
       <created>1604920474834</created>
@@ -881,17 +711,136 @@
       <option name="project" value="LOCAL" />
       <updated>1629708507456</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="7.26 10道">
+      <created>1629710118003</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1629710118004</updated>
+    </task>
+    <task id="LOCAL-00081" summary="7.26 10道">
+      <created>1629711652344</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1629711652344</updated>
+    </task>
+    <task id="LOCAL-00082" summary="7.26 10道">
+      <created>1629773859575</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1629773859575</updated>
+    </task>
+    <task id="LOCAL-00083" summary="7.26 10道">
+      <created>1629783812321</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1629783812321</updated>
+    </task>
+    <task id="LOCAL-00084" summary="7.26 10道">
+      <created>1629783970221</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1629783970221</updated>
+    </task>
+    <task id="LOCAL-00085" summary="7.26 10道">
+      <created>1629784619601</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1629784619601</updated>
+    </task>
+    <task id="LOCAL-00086" summary="7.26 10道">
+      <created>1629795469779</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1629795469780</updated>
+    </task>
+    <task id="LOCAL-00087" summary="7.26 10道">
+      <created>1629938464403</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1629938464403</updated>
+    </task>
+    <task id="LOCAL-00088" summary="7.26 10道">
+      <created>1629938609707</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1629938609707</updated>
+    </task>
+    <task id="LOCAL-00089" summary="7.26 10道">
+      <created>1630057736911</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1630057736911</updated>
+    </task>
+    <task id="LOCAL-00090" summary="7.26 10道">
+      <created>1630372951005</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1630372951005</updated>
+    </task>
+    <task id="LOCAL-00091" summary="7.26 10道">
+      <created>1630544395149</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1630544395165</updated>
+    </task>
+    <task id="LOCAL-00092" summary="9.2 1">
+      <created>1630629517596</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1630629517596</updated>
+    </task>
+    <task id="LOCAL-00093" summary="9.2 3">
+      <created>1631064371550</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1631064371551</updated>
+    </task>
+    <task id="LOCAL-00094" summary="9.2 3">
+      <created>1631325130732</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1631325130733</updated>
+    </task>
+    <task id="LOCAL-00095" summary="9.2 3">
+      <created>1631685928016</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1631685928017</updated>
+    </task>
+    <task id="LOCAL-00096" summary="9.2 3">
+      <created>1631944728416</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1631944728417</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1305227000" />
+    <option name="totallyTimeSpent" value="1396170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="430" y="0" width="978" height="858" extended-state="0" />
+    <frame x="-7" y="-7" width="1563" height="855" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.1597826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.15880398" />
       <window_info id="Structure" order="1" sideWeight="0.5018182" side_tool="true" weight="0.19113924" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -899,18 +848,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3264177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49568108" visible="true" weight="0.3153527" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753088" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900332" weight="0.3250346" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49568108" visible="true" weight="0.28354082" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753088" weight="0.19640388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49891305" weight="0.3264463" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50108695" side_tool="true" visible="true" weight="0.32506886" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49873418" weight="0.15972222" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.18533887" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5036545" side_tool="true" weight="0.3250346" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49634552" visible="true" weight="0.1549101" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49966776" weight="0.18257262" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -923,7 +872,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32881773" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49818182" weight="0.20878048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49818182" visible="true" weight="0.2523256" />
       <window_info id="Structure" order="1" sideWeight="0.5018182" side_tool="true" weight="0.19113924" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -931,18 +880,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3264177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49700996" visible="true" weight="0.3504868" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753088" weight="0.23236515" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900332" weight="0.3264177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49568108" visible="true" weight="0.22993197" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49753088" weight="0.25986394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32775453" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50299" side_tool="true" weight="0.21991701" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49873418" weight="0.15905948" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.31710708" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49891305" weight="0.3264463" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5036545" side_tool="true" weight="0.3250346" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49634552" weight="0.1983471" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49966776" weight="0.18457301" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1002,8 +951,6 @@
     <ignored-roots>
       <path value="E:/" />
     </ignored-roots>
-    <MESSAGE value="9.28 3个," />
-    <MESSAGE value="9.29 7个," />
     <MESSAGE value="10.9 3个," />
     <MESSAGE value="10.12 3个," />
     <MESSAGE value="10.13 回顾8个," />
@@ -1027,7 +974,9 @@
     <MESSAGE value="7.23 2道" />
     <MESSAGE value="7.26 5道" />
     <MESSAGE value="7.26 10道" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.26 10道" />
+    <MESSAGE value="9.2 1" />
+    <MESSAGE value="9.2 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.2 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1170,6 +1119,12 @@
           <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyInterviewRecord/bilibil.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/ThinkInJava/test.java</url>
           <line>15</line>
@@ -1205,6 +1160,41 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>(j-i&gt;1&amp;&amp;chs[i]==chs[j]&amp;&amp;dp[i+1][j-1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i-j&gt;1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(i-j&gt;1&amp;&amp;chs[i]==chs[j]&amp;&amp;dp[i+1][j-1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dp[i+1][j-1]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chs[i]==chs[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>chs[i]==chs[j]&amp;&amp;dp[i+1][j-1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i-j==1 &amp;&amp;chs[i]==chs[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>query.length()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1214,284 +1204,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>query.substring(i,i+j)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>2^nums2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>heights[cur]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>area1 + area2 + area3</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>super.toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new Pet[0]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Arrays.asList(pets.get(1), pets.get(4), pets.get(2))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/weipinghui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_11_T1ContainsT2Topology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter4/P151_MirrorOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter4/P159_SymmetricalBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_02_PrintEdgeNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_05_MorrisTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_06_LongestPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_07_BiggestSubBSTInTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_09_PrintBinaryTreeByLevelAndZigZag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2207">
-          <caret line="705" column="7" lean-forward="true" selection-start-line="705" selection-start-column="7" selection-end-line="705" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter4/P174_printTreeInLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter4/P176_printTreeInSpecial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter4/P179_SequenceOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_04_SerializeAndReconstructTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_10_RecoverBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_14_PosArrayToBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_15_IsBSTAndCBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_16_SortedArrayToBalancedBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_18_LowestCommonAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_19_TarjanAndDisjointSetsForLCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_20_MaxDistanceInTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_21_PreInPosArrayToTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/BinaryTree/Problem_01_PreInPosTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1679">
-          <caret line="75" column="15" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter4/P182_FindPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/huolala.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/weipinghui2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/Others/Problem_03_FactorialProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/Others/Problem_01_Rand5ToRand7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ThinkInJava/typeinfo/pets/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_07_RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_00_BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1513,38 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_03_HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_04_QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_05_MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="39" column="34" selection-start-line="35" selection-start-column="25" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/test5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1559,13 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P209_KLeastNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1590,31 +1270,294 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/meidumNums.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/test2.java" />
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/Tools/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P209_KLeastNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThinkInJava/arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_03_HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BasicCourse/basic_class_01/Code_04_QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Chapter5/P214_StreamMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/ArrayAndMatrix/Problem_01_PrintMatrixSpiralOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_01_FibonacciProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+        <state relative-caret-position="1127">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_02_MinPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="1058">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/唯品会2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_03_CoinsMin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="253">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_04_CoinsWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="391">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_05_LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_06_HanoiProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_07_LCSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/bigo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/bilibil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/云屋智能.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/哈喽.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/唯品会1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/字节.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/字节2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/字节3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/小冰.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/拼多多.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/百度.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/米哈游.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/腾讯_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/超参数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/货拉拉1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/得物.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_08_LCSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_09_EditCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_11_DungeonGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterviewGuildCode/RecursionAndDp/Problem_10_StringCross.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/百度nlp_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/百度nlp_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyInterviewRecord/得物2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
